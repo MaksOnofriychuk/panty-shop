@@ -1,0 +1,147 @@
+.categories {
+  @media (max-width: 600px) {
+    display: none;
+  }
+  ul {
+    display: flex;
+    li {
+      background-color: #f9f9f9;
+      padding: 13px 30px;
+      border-radius: 30px;
+      margin-right: 10px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.1s ease-in-out;
+      @media (max-width: 725px) {
+        padding: 6.5px 15px;
+      }
+
+      &:hover {
+        background-color: darken(#f9f9f9, 10%);
+      }
+
+      &:active {
+        background-color: darken(#f9f9f9, 20%);
+      }
+
+      &.active {
+        background-color: #282828;
+        color: #fff;
+      }
+    }
+  }
+}
+
+.burger__wrap {
+  display: none;
+  @media (max-width: 600px) {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+.menu-btn {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  cursor: pointer;
+}
+.menu-btn span {
+  width: 50px;
+  height: 4px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #dbbba9;
+  transition: all 0.5s;
+  border-radius: 5px;
+}
+.menu-btn span:nth-of-type(2) {
+  top: calc(50% - 10px);
+}
+.menu-btn span:nth-of-type(3) {
+  top: calc(50% + 10px);
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+  background: #cfc8c4;
+  transform: translateX(-100%);
+  transition: transform 0.5s;
+  z-index: 5;
+}
+.menu.active {
+  transform: translateX(0);
+}
+.menu li {
+  list-style-type: none;
+
+  Button {
+    width: 150px;
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    border-color: transparent;
+    color: #fff;
+    background-color: #dbbba9;
+    border-radius: 6px;
+    margin-right: 10px;
+
+    &:hover {
+      background-color: #daa789;
+    }
+    &:active {
+      background-color: #d69570;
+    }
+    @media (max-width: 520px) {
+      width: 120px;
+    }
+    @media (max-width: 420px) {
+      width: 100px;
+    }
+  }
+}
+.menu nav {
+  display: flex;
+  justify-content: center;
+}
+.menu__title {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 30px;
+  h3 {
+    font-weight: 500;
+    color: #fff;
+    font-size: 22px;
+  }
+  Button {
+    font-size: 18px;
+    background-color: #dfb298;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border-color: transparent;
+    cursor: pointer;
+    &:hover {
+      background-color: #daa789;
+    }
+    &:active {
+      background-color: #df9266;
+    }
+    @media (max-width: 520px) {
+      font-size: 22px;
+      width: 40px;
+      height: 40px;
+    }
+  }
+}

@@ -1,0 +1,132 @@
+.product__wrapper {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  @media (max-width: 950px) {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .product__left {
+    width: 50%;
+    @media (max-width: 950px) {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+
+  .product__right {
+    width: 40%;
+    margin-right: 50px;
+    Button {
+      margin-bottom: 30px;
+    }
+    @media (max-width: 950px) {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+  .product__title {
+    margin-bottom: 30px;
+    font-size: 38px;
+    text-align: center;
+  }
+
+  .product__price {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 30px;
+  }
+}
+
+.product__description {
+  display: flex;
+  width: 100%;
+
+  span {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 20px;
+    color: grey;
+    align-items: center;
+    @media (max-width: 440px) {
+      margin-right: 10px;
+      font-size: 18px;
+    }
+    @media (max-width: 350px) {
+      margin-right: 6px;
+      font-size: 16px;
+    }
+  }
+  margin-bottom: 30px;
+}
+
+.button-fullwidth {
+  width: 100%;
+  font-size: 28px;
+  padding: 20px;
+  text-transform: uppercase;
+  text-decoration: none !important;
+  align-items: center;
+}
+.product__dimensional {
+  span {
+    font-size: 26px;
+  }
+  ul {
+    margin-top: 10px;
+    li {
+      margin-bottom: 10px;
+      font-size: 20px;
+      color: grey;
+    }
+  }
+  margin-bottom: 30px;
+}
+
+.product__selector {
+  display: grid;
+  background-color: #f3f3f3;
+  border-radius: 10px;
+  flex-direction: column;
+  padding: 20px;
+  margin-bottom: 30px;
+
+  ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    text-align: center;
+
+    &:first-of-type {
+      margin-bottom: 6px;
+    }
+
+    li {
+      padding: 15px;
+      flex: 1;
+      cursor: pointer;
+      font-weight: 600;
+      font-size: 14px;
+      border: 1px solid #fff;
+      border-radius: 6px;
+      margin-right: 10px;
+      transition: background, color 0.5s ease-in-out;
+      &:hover {
+        background: #c0bdbd;
+        color: #fff;
+      }
+
+      &.active {
+        background: #ffffff;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.04);
+        border-radius: 5px;
+        cursor: auto;
+      }
+      &.disabled {
+        opacity: 0.4;
+        pointer-events: none;
+      }
+    }
+  }
+}

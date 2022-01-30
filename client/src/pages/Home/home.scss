@@ -1,0 +1,19 @@
+.content__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.content__title {
+  display: flex;
+  align-items: center;
+  font-size: 32px;
+  @media (max-width: 760px) {
+    font-size: 28px;
+  }
+  @media (max-width: 460px) {
+    font-size: 22px;
+  }
+}
+.content__title {
+  margin: 35px 0;
+}
