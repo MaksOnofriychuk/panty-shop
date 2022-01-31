@@ -17,24 +17,27 @@ const Cart = () => {
 
   const { items } = useSelector((state) => state.cart);
 
+  const addedItems = Object.keys(items).map((key) => items[key].items[0]);
+  console.log(addedItems);
+
   const clearCart = () => {
     dispatch(clearCartItems());
   };
-  console.log(items);
+
   const deleteItem = (id) => {
     dispatch(deleteProductInCart(id));
   };
 
-  const totalPrice = items
-    .map((item) => item.price)
-    .reduce(function (sum, current) {
-      return sum + current;
-    }, 0);
+  // const totalPrice = items
+  //   .map((item) => item.price)
+  //   .reduce(function (sum, current) {
+  //     return sum + current;
+  //   }, 0);
 
   return (
     <div className="container container--cart">
       <div className="cart">
-        {items.length > 0 ? (
+        {addedItems.length > 0 ? (
           <>
             <div className="cart__top">
               <h2 className="content__title">
@@ -57,7 +60,7 @@ const Cart = () => {
               </div>
             </div>
             <div className="cart__wrap">
-              {items.map((item) => (
+              {addedItems.map((item) => (
                 <div key={item.id} className="cart__item">
                   <div className="cart__item-img">
                     <img src={item.img} alt="трусики" />
@@ -107,7 +110,7 @@ const Cart = () => {
                 </span>
                 <span className="cart__details-price">
                   {" "}
-                  Сумма заказа: <b>{totalPrice} грн</b>{" "}
+                  Сумма заказа: <b>ffefгрн</b>{" "}
                 </span>
               </div>
               <div className="cart__bottom-buttons">

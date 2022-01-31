@@ -8,9 +8,9 @@ import { useSelector } from "react-redux";
 const Header = () => {
   const { items } = useSelector((state) => state.cart)
 
-  const totalPrice = items.map((item) => item.price).reduce(function (sum, current) {
-    return sum + current;
-  }, 0);
+  // const totalPrice = items.map((item) => item.price).reduce(function (sum, current) {
+  //   return sum + current;
+  // }, 0);
 
   return (
     <div className="header">
@@ -26,7 +26,7 @@ const Header = () => {
         <div className="header__cart">
           <Link to="/cart">
             <Button className="button button--cart">
-              <span>{totalPrice} грн</span>
+              <span>11 грн</span>
               <div className="button__delimiter"></div>
               <img width={18} height={18} src={Basket} alt="basket-icon"></img>
               <span>{items.length}</span>

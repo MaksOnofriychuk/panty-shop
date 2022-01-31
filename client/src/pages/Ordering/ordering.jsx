@@ -102,8 +102,9 @@ const Ordering = () => {
               className="ordering__main-form"
               onSubmit={formik.handleSubmit}
             >
-              {fields.map((f) => (
+              {fields.map((f, index) => (
                 <TextField
+                  key={index + Math.random()}
                   style={{ marginBottom: "50px" }}
                   id={f.name}
                   name={f.name}

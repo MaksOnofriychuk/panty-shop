@@ -3,27 +3,44 @@ export const CLEAR_CART = "CLEAR_CART";
 export const DELETE_PRODUCT_IN_CART = "DELETE_PRODUCT_IN_CART";
 
 const initialState = {
-  items: [],
+  items: {},
 };
 
 export default function cartReducer(state = initialState, action) {
   switch (action.type) {
     case ADD_PRODUCT_TO_CART:
+      const currentPizzaItems = !state.items[action.payload.id]
+        ? [action.payload]
+        : [...state.items[action.payload.id].items, action.payload];
+
+      const newItems = {
+        ...state.items,
+        [action.payload.id]: {
+          items: currentPizzaItems,
+        },
+      };
+
       return {
         ...state,
-        items: [...state.items, action.payload],
+        items: newItems,
       };
 
     case CLEAR_CART:
       return {
         ...state,
-        items: [],
+        items: {},
       };
 
     case DELETE_PRODUCT_IN_CART:
+      const nItems = {
+        ...state.items,
+      };
+
+      delete nItems[action.payload];
+
       return {
         ...state,
-        items: state.items.filter((item) => item.id !== action.payload),
+        items: nItems,
       };
 
     default:
