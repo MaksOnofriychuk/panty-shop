@@ -2,7 +2,7 @@ import { applyMiddleware, combineReducers, createStore } from "redux";
 import { composeWithDevTools } from "redux-devtools-extension";
 import thunk from "redux-thunk";
 import pantiesReducer from "./panties";
-import cartReducer from "./cart"
+import cartReducer from "./cart";
 
 const rootReducer = combineReducers({
   panties: pantiesReducer,

@@ -50,6 +50,14 @@ const Ordering = () => {
     validationSchema: validationSchema,
     onSubmit: (values) => {
       console.log(values, items);
+      let token = "5222799804:AAGPA1nv85mIyGiojP2B3W4niIMHokadrZ0";
+      let chat_id = "-677289750";
+      let my_text = JSON.stringify(values);
+      let url = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chat_id}&text=${my_text}/`;
+      let api = new XMLHttpRequest();
+      api.open("GET", url, true);
+      api.send();
+
       setSendForm(true);
     },
   });
@@ -100,23 +108,26 @@ const Ordering = () => {
           <div className="ordering__main">
             <form
               className="ordering__main-form"
+              action={"telegram.php"}
+              method="post"
               onSubmit={formik.handleSubmit}
             >
-              {fields.map((f, index) => (
-                <TextField
-                  key={index + Math.random()}
-                  style={{ marginBottom: "50px" }}
-                  id={f.name}
-                  name={f.name}
-                  label={f.label}
-                  value={formik.values[f.name]}
-                  onChange={formik.handleChange}
-                  error={
-                    formik.touched[f.name] && Boolean(formik.errors[f.name])
-                  }
-                  helperText={formik.touched[f.name] && formik.errors[f.name]}
-                  variant="outlined"
-                />
+              {fields.map((f, i) => (
+                <React.Fragment key={i}>
+                  <TextField
+                    style={{ marginBottom: "50px" }}
+                    id={f.name}
+                    name={f.name}
+                    label={f.label}
+                    value={formik.values[f.name]}
+                    onChange={formik.handleChange}
+                    error={
+                      formik.touched[f.name] && Boolean(formik.errors[f.name])
+                    }
+                    helperText={formik.touched[f.name] && formik.errors[f.name]}
+                    variant="outlined"
+                  />
+                </React.Fragment>
               ))}
 
               <Button

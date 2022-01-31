@@ -6,11 +6,7 @@ import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
 
 const Header = () => {
-  const { items } = useSelector((state) => state.cart)
-
-  // const totalPrice = items.map((item) => item.price).reduce(function (sum, current) {
-  //   return sum + current;
-  // }, 0);
+  const { totalCount, totalPrice } = useSelector((state) => state.cart);
 
   return (
     <div className="header">
@@ -26,10 +22,10 @@ const Header = () => {
         <div className="header__cart">
           <Link to="/cart">
             <Button className="button button--cart">
-              <span>11 грн</span>
+              <span>{totalPrice} грн</span>
               <div className="button__delimiter"></div>
               <img width={18} height={18} src={Basket} alt="basket-icon"></img>
-              <span>{items.length}</span>
+              <span>{totalCount}</span>
             </Button>
           </Link>
         </div>

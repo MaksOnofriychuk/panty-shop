@@ -3,7 +3,12 @@ import Button from "../../components/Button/button";
 import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
-import { clearCartItems, deleteProductInCart } from "../../redux/cart";
+import {
+  clearCartItems,
+  deleteProductInCart,
+  plusCartItem,
+  minusCartItem,
+} from "../../redux/cart";
 
 import CartBasket from "../../assets/img/cart-basket.svg";
 import ClearBasket from "../../assets/img/clear-basket.svg";
@@ -15,29 +20,35 @@ import "./cart.scss";
 const Cart = () => {
   const dispatch = useDispatch();
 
-  const { items } = useSelector((state) => state.cart);
+  const { items, totalPrice, totalCount } = useSelector((state) => state.cart);
 
   const addedItems = Object.keys(items).map((key) => items[key].items[0]);
   console.log(addedItems);
 
   const clearCart = () => {
-    dispatch(clearCartItems());
+    if (window.confirm("Вы действительно хотите очистить корзину?")) {
+      dispatch(clearCartItems());
+    }
   };
 
   const deleteItem = (id) => {
-    dispatch(deleteProductInCart(id));
+    if (window.confirm("Вы действительно хотите удалить?")) {
+      dispatch(deleteProductInCart(id));
+    }
   };
 
-  // const totalPrice = items
-  //   .map((item) => item.price)
-  //   .reduce(function (sum, current) {
-  //     return sum + current;
-  //   }, 0);
+  const handlePlusItem = (id) => {
+    dispatch(plusCartItem(id));
+  };
+
+  const handleMinusItem = (id) => {
+    dispatch(minusCartItem(id));
+  };
 
   return (
     <div className="container container--cart">
       <div className="cart">
-        {addedItems.length > 0 ? (
+        {totalCount > 0 ? (
           <>
             <div className="cart__top">
               <h2 className="content__title">
@@ -72,16 +83,22 @@ const Cart = () => {
                     </div>
                     <div className="k">
                       <div className="cart__item-count">
-                        <Button className="button button--outline cart__item-count-minus">
+                        <Button
+                          onClick={() => handleMinusItem(item.id)}
+                          className="button button--outline cart__item-count-minus"
+                        >
                           <span className="cart__item-count-minus">-</span>
                         </Button>
-                        <b>3</b>
-                        <Button className="button button--outline cart__item-count-plus">
+                        <b>{items[item.id].items.length}</b>
+                        <Button
+                          onClick={() => handlePlusItem(item.id)}
+                          className="button button--outline cart__item-count-plus"
+                        >
                           <span className="cart__item-count-plus">+</span>
                         </Button>
                       </div>
                       <div className="cart__item-price">
-                        <b>{item.price} грн</b>
+                        <b>{items[item.id].totalPrice} грн</b>
                       </div>
                       <div className="cart__item-remove">
                         <Button
@@ -106,11 +123,11 @@ const Cart = () => {
               <div className="cart__bottom-details">
                 <span>
                   {" "}
-                  Всего трусиков: <b>{items.length} шт.</b>{" "}
+                  Всего трусиков: <b>{totalCount} шт.</b>{" "}
                 </span>
                 <span className="cart__details-price">
                   {" "}
-                  Сумма заказа: <b>ffefгрн</b>{" "}
+                  Сумма заказа: <b>{totalPrice}</b>{" "}
                 </span>
               </div>
               <div className="cart__bottom-buttons">
