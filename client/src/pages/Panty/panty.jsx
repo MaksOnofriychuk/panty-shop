@@ -39,7 +39,7 @@ const Panty = () => {
         name: panty.name,
         size: SIZES[activeSizeIndex],
         price: panty.price,
-        img: panty.photos[0],
+        img: panty.photo[0],
       })
     );
   };
@@ -107,10 +107,10 @@ const Panty = () => {
               <div className="product__dimensional">
                 <span>Размерный ряд:</span>
                 <ul>
-                  <li>XS - 70B 70C 70D</li>
-                  <li>S - 75B 75C 75D</li>
-                  <li>M - 80B 80C</li>
-                  <li>L - 85B</li>
+                  <li>XS - 81 - 86 см</li>
+                  <li>S - 87 - 92 см</li>
+                  <li>M - 93 - 97 см</li>
+                  <li>L - 98 - 105 см</li>
                 </ul>
               </div>
 

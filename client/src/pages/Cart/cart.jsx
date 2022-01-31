@@ -20,7 +20,7 @@ const Cart = () => {
   const clearCart = () => {
     dispatch(clearCartItems());
   };
-
+  console.log(items);
   const deleteItem = (id) => {
     dispatch(deleteProductInCart(id));
   };
@@ -62,35 +62,39 @@ const Cart = () => {
                   <div className="cart__item-img">
                     <img src={item.img} alt="трусики" />
                   </div>
-                  <div className="cart__item-info">
-                    <h3>трусики: {item.name}</h3>
-                    <p>Размер: {item.sizes}</p>
-                  </div>
-                  <div className="cart__item-count">
-                    <Button className="button button--outline cart__item-count-minus">
-                      <span className="cart__item-count-minus">-</span>
-                    </Button>
-                    <b>3</b>
-                    <Button className="button button--outline cart__item-count-plus">
-                      <span className="cart__item-count-plus">+</span>
-                    </Button>
-                  </div>
-                  <div className="cart__item-price">
-                    <b>{item.price} грн</b>
-                  </div>
-                  <div className="cart__item-remove">
-                    <Button
-                      onClick={() => deleteItem(item.id)}
-                      className="button--circle"
-                      outline
-                    >
-                      <img
-                        width="10"
-                        height="10"
-                        src={DeleteIcon}
-                        alt="delete-icon"
-                      ></img>
-                    </Button>
+                  <div className="cart__wrap-info">
+                    <div className="cart__item-info">
+                      <h3>трусики: {item.name}</h3>
+                      <p>Размер: {item.size}</p>
+                    </div>
+                    <div className="k">
+                      <div className="cart__item-count">
+                        <Button className="button button--outline cart__item-count-minus">
+                          <span className="cart__item-count-minus">-</span>
+                        </Button>
+                        <b>3</b>
+                        <Button className="button button--outline cart__item-count-plus">
+                          <span className="cart__item-count-plus">+</span>
+                        </Button>
+                      </div>
+                      <div className="cart__item-price">
+                        <b>{item.price} грн</b>
+                      </div>
+                      <div className="cart__item-remove">
+                        <Button
+                          onClick={() => deleteItem(item.id)}
+                          className="button--circle"
+                          outline
+                        >
+                          <img
+                            width="10"
+                            height="10"
+                            src={DeleteIcon}
+                            alt="delete-icon"
+                          ></img>
+                        </Button>
+                      </div>
+                    </div>
                   </div>
                 </div>
               ))}
