@@ -8,7 +8,6 @@ import { fetchMorePanties, fetchPanties } from "../../redux/panties";
 import "./panties.scss";
 
 const Panties = () => {
-  
   const dispatch = useDispatch();
 
   const { loading, panties, visibleProductCount } = useSelector(

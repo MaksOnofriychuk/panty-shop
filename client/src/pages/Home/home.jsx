@@ -1,5 +1,6 @@
 import React from "react";
 import Panties from "../../components/Panties/panties";
+import Promotion from "../../components/Promotion/promotion";
 import "./home.scss";
 
 const Home = () => {
@@ -9,6 +10,7 @@ const Home = () => {
         {/* <Categories /> */}
         {/* <Sort /> */}
       </div>
+      <Promotion />
       <h2 className="content__title">Все трусики</h2>
       <Panties />
     </div>

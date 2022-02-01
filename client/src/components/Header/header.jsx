@@ -1,12 +1,19 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Button from "../Button/button";
 import Basket from "../../assets/img/basket.svg";
 import "./header.scss";
 import { Link } from "react-router-dom";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
+import { getItems } from "../../redux/cart";
 
 const Header = () => {
+  const dispatch = useDispatch();
+
   const { totalCount, totalPrice } = useSelector((state) => state.cart);
+
+  useEffect(() => {
+    dispatch(getItems());
+  }, [dispatch]);
 
   return (
     <div className="header">

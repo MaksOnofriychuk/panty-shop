@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Button from "../../components/Button/button";
 import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
@@ -8,6 +8,7 @@ import {
   deleteProductInCart,
   plusCartItem,
   minusCartItem,
+  getItems,
 } from "../../redux/cart";
 
 import CartBasket from "../../assets/img/cart-basket.svg";
@@ -16,14 +17,20 @@ import DeleteIcon from "../../assets/img/delete-icon.svg";
 import emptyCart from "../../assets/img/empty-cart.png";
 
 import "./cart.scss";
+import Promotion from "../../components/Promotion/promotion";
 
 const Cart = () => {
   const dispatch = useDispatch();
 
   const { items, totalPrice, totalCount } = useSelector((state) => state.cart);
 
-  const addedItems = Object.keys(items).map((key) => items[key].items[0]);
-  console.log(addedItems);
+  useEffect(() => {
+    dispatch(getItems());
+  }, [dispatch]);
+
+  const addedPizzas = items
+    ? Object.keys(items).map((key) => items[key].items[0])
+    : [];
 
   const clearCart = () => {
     if (window.confirm("Вы действительно хотите очистить корзину?")) {
@@ -50,6 +57,7 @@ const Cart = () => {
       <div className="cart">
         {totalCount > 0 ? (
           <>
+            <Promotion />
             <div className="cart__top">
               <h2 className="content__title">
                 <img
@@ -71,7 +79,7 @@ const Cart = () => {
               </div>
             </div>
             <div className="cart__wrap">
-              {addedItems.map((item) => (
+              {addedPizzas.map((item) => (
                 <div key={item.id} className="cart__item">
                   <div className="cart__item-img">
                     <img src={item.img} alt="трусики" />
@@ -129,6 +137,7 @@ const Cart = () => {
                   {" "}
                   Сумма заказа: <b>{totalPrice}</b>{" "}
                 </span>
+                {totalCount >= 9 && <p>Скидка</p>}
               </div>
               <div className="cart__bottom-buttons">
                 <Link to="/">

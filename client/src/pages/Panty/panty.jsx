@@ -9,6 +9,7 @@ import { SIZES } from "../../utils/constants";
 import "./panty.scss";
 import { useParams } from "react-router-dom/cjs/react-router-dom.min";
 import { addProductToCart } from "../../redux/cart";
+import Promotion from "../../components/Promotion/promotion";
 
 const Panty = () => {
   const dispatch = useDispatch();
@@ -46,6 +47,7 @@ const Panty = () => {
 
   return (
     <div className="container">
+      <Promotion />
       <div className="product__wrapper">
         {panty ? (
           <>
@@ -134,7 +136,9 @@ const Panty = () => {
           </>
         ) : (
           <div>
-            <h1>Loading...</h1>
+            <div className="panty__loading">
+              <h2 className="panty__loading-title">Loading...</h2>
+            </div>
           </div>
         )}
       </div>

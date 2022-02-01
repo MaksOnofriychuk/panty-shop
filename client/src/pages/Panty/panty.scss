@@ -1,10 +1,13 @@
 .product__wrapper {
-  margin: 0 auto;
+  margin: 50px auto 0px;
   display: flex;
   justify-content: space-between;
   @media (max-width: 950px) {
     display: flex;
     flex-direction: column;
+  }
+  @media (max-width: 950px) {
+    margin: 30px auto 0px;
   }
 
   .product__left {
@@ -129,4 +132,8 @@
       }
     }
   }
+}
+.panty__loading {
+  display: flex;
+  justify-content: center;
 }

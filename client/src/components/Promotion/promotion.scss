@@ -1,0 +1,34 @@
+.sale {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @media (max-width: 530px) {
+    .sale__title {
+      font-size: 26px;
+    }
+  }
+  @media (max-width: 455px) {
+    .sale__title {
+      font-size: 24px;
+    }
+  }
+  @media (max-width: 440px) {
+    .sale__title {
+      font-size: 20px;
+    }
+  }
+  @media (max-width: 390px) {
+    .sale__title {
+      font-size: 18px;
+    }
+  }
+  @media (max-width: 330px) {
+    .sale__title {
+      font-size: 16px;
+    }
+  }
+  &__title {
+    font-size: 30px;
+    color: red;
+  }
+}

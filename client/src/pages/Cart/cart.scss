@@ -2,10 +2,20 @@
 
 .cart {
   &__top {
+    margin-top: 50px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    @media (max-width: 600px) {
+      margin-top: 30px;
+    }
+    @media (max-width: 430px) {
+      margin-top: 20px;
+    }
+    @media (max-width: 370px) {
+      margin-top: 10px;
+    }
     &-img {
       width: 30px;
       height: 30px;

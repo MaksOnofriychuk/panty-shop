@@ -49,10 +49,12 @@ const Ordering = () => {
     },
     validationSchema: validationSchema,
     onSubmit: (values) => {
-      console.log(values, items);
       let token = "5222799804:AAGPA1nv85mIyGiojP2B3W4niIMHokadrZ0";
       let chat_id = "-677289750";
-      let my_text = JSON.stringify({values, items});
+      let my_text = JSON.stringify({
+        Заказ: items,
+        "Данние о пользователе": values,
+      });
       let url = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chat_id}&text=${my_text}/`;
       let api = new XMLHttpRequest();
       api.open("GET", url, true);
@@ -61,7 +63,6 @@ const Ordering = () => {
       setSendForm(true);
     },
   });
-  console.log(sendForm);
 
   const fields = [
     {
