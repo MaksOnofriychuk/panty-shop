@@ -52,7 +52,7 @@ const Ordering = () => {
       console.log(values, items);
       let token = "5222799804:AAGPA1nv85mIyGiojP2B3W4niIMHokadrZ0";
       let chat_id = "-677289750";
-      let my_text = JSON.stringify(values);
+      let my_text = JSON.stringify({values, items});
       let url = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chat_id}&text=${my_text}/`;
       let api = new XMLHttpRequest();
       api.open("GET", url, true);
