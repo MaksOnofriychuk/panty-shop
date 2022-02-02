@@ -34,15 +34,9 @@ const validationSchema = yup.object({
 const Ordering = () => {
   const [sendForm, setSendForm] = useState(false);
 
-  const { items, totalPrice, sellTotalPrice } = useSelector(
+  const { items, totalPrice, sellTotalPrice, totalCount } = useSelector(
     (state) => state.cart
   );
-
-  console.log(Object.keys(items).length);
-
-  console.log(totalPrice);
-
-  console.log(sellTotalPrice);
 
   const formik = useFormik({
     initialValues: {
@@ -63,6 +57,7 @@ const Ordering = () => {
         Заказ: items,
         "Данние о пользователе": values,
         "Общая стоимость": sellTotalPrice ? sellTotalPrice : totalPrice,
+        количество: totalCount,
       });
       let url = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chat_id}&text=${my_text}/`;
       let api = new XMLHttpRequest();
