@@ -137,8 +137,8 @@ const Cart = () => {
 
                 <span className="cart__details-price">
                   Сумма заказа:&nbsp;
-                  {sellTotalPrice ? <b className="old">{totalPrice} </b> : ""}
-                  <b>{sellTotalPrice ? sellTotalPrice : totalPrice}</b>
+                  {sellTotalPrice ? <b className="old">{totalPrice} грн</b> : ""}
+                   <b>{sellTotalPrice ? sellTotalPrice : totalPrice} грн</b>
                 </span>
               </div>
               <div className="cart__bottom-buttons">
