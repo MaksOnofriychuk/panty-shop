@@ -9,6 +9,7 @@ const SELL_PERCENT = 50.8;
 const initialState = {
   items: {},
   totalPrice: 0,
+  sellTotalPrice: 0,
   totalCount: 0,
 };
 
@@ -52,21 +53,20 @@ export default function cartReducer(state = initialState, action) {
         ? [action.payload]
         : [...state.items[action.payload.id].items, action.payload];
 
-      const totalItemPrice =
-        state.totalCount + 1 >= 9
-          ? getPriceWithSell(getTotalPrice(curentItems))
-          : getTotalPrice(curentItems);
-
       const newItems = {
         ...state.items,
         [action.payload.id]: {
           items: curentItems,
-          totalPrice: totalItemPrice,
+          totalPrice: getTotalPrice(curentItems),
         },
       };
 
       const totalCount = getTotalSum(newItems, "items.length");
       const totalPrice = getTotalSum(newItems, "totalPrice");
+      const sellTotalPrice =
+        totalCount > 8
+          ? getPriceWithSell(getTotalSum(newItems, "totalPrice"))
+          : 0;
 
       localStorage.setItem("total-count", totalCount);
       localStorage.setItem("total-price", totalPrice);
@@ -77,6 +77,7 @@ export default function cartReducer(state = initialState, action) {
         items: newItems,
         totalCount,
         totalPrice,
+        sellTotalPrice,
       };
     }
 
@@ -120,22 +121,20 @@ export default function cartReducer(state = initialState, action) {
         state.items[action.payload].items[0],
       ];
 
-      const totalItemPrice =
-        state.totalCount + 1 >= 9
-          ? getPriceWithSell(getTotalPrice(newObjItems))
-          : getTotalPrice(newObjItems);
-
       const newItems = {
         ...state.items,
         [action.payload]: {
           items: newObjItems,
-          totalPrice: totalItemPrice,
+          totalPrice: getTotalPrice(newObjItems),
         },
       };
 
       const totalCount = getTotalSum(newItems, "items.length");
-
       const totalPrice = getTotalSum(newItems, "totalPrice");
+      const sellTotalPrice =
+        totalCount > 8
+          ? getPriceWithSell(getTotalSum(newItems, "totalPrice"))
+          : 0;
 
       localStorage.setItem("total-count", totalCount);
       localStorage.setItem("total-price", totalPrice);
@@ -146,6 +145,7 @@ export default function cartReducer(state = initialState, action) {
         items: newItems,
         totalCount,
         totalPrice,
+        sellTotalPrice,
       };
     }
 
@@ -156,21 +156,20 @@ export default function cartReducer(state = initialState, action) {
           ? state.items[action.payload].items.slice(1)
           : oldItems;
 
-      const totalItemPrice =
-        state.totalCount - 1 >= 9
-          ? getPriceWithSell(getTotalPrice(newObjItems))
-          : getTotalPrice(newObjItems);
-
       const newItems = {
         ...state.items,
         [action.payload]: {
           items: newObjItems,
-          totalPrice: totalItemPrice,
+          totalPrice: getTotalPrice(newObjItems),
         },
       };
 
       const totalCount = getTotalSum(newItems, "items.length");
       const totalPrice = getTotalSum(newItems, "totalPrice");
+      const sellTotalPrice =
+        totalCount > 8
+          ? getPriceWithSell(getTotalSum(newItems, "totalPrice"))
+          : 0;
 
       localStorage.setItem("total-count", totalCount);
       localStorage.setItem("total-price", totalPrice);
@@ -181,6 +180,7 @@ export default function cartReducer(state = initialState, action) {
         items: newItems,
         totalCount,
         totalPrice,
+        sellTotalPrice,
       };
     }
 

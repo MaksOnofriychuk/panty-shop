@@ -22,7 +22,9 @@ import Promotion from "../../components/Promotion/promotion";
 const Cart = () => {
   const dispatch = useDispatch();
 
-  const { items, totalPrice, totalCount } = useSelector((state) => state.cart);
+  const { items, totalPrice, sellTotalPrice, totalCount } = useSelector(
+    (state) => state.cart
+  );
 
   useEffect(() => {
     dispatch(getItems());
@@ -130,14 +132,14 @@ const Cart = () => {
             <div className="cart__bottom">
               <div className="cart__bottom-details">
                 <span>
-                  {" "}
-                  Всего трусиков: <b>{totalCount} шт.</b>{" "}
+                  Всего трусиков: <b>{totalCount} шт.</b>
                 </span>
+
                 <span className="cart__details-price">
-                  {" "}
-                  Сумма заказа: <b>{totalPrice}</b>{" "}
+                  Сумма заказа:&nbsp;
+                  {sellTotalPrice ? <b className="old">{totalPrice} </b> : ""}
+                  <b>{sellTotalPrice ? sellTotalPrice : totalPrice}</b>
                 </span>
-                {totalCount >= 9 && <p>Скидка</p>}
               </div>
               <div className="cart__bottom-buttons">
                 <Link to="/">

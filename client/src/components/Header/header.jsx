@@ -9,7 +9,9 @@ import { getItems } from "../../redux/cart";
 const Header = () => {
   const dispatch = useDispatch();
 
-  const { totalCount, totalPrice } = useSelector((state) => state.cart);
+  const { totalCount, totalPrice, sellTotalPrice } = useSelector(
+    (state) => state.cart
+  );
 
   useEffect(() => {
     dispatch(getItems());
@@ -29,7 +31,7 @@ const Header = () => {
         <div className="header__cart">
           <Link to="/cart">
             <Button className="button button--cart">
-              <span>{totalPrice} грн</span>
+              <span>{sellTotalPrice ? sellTotalPrice : totalPrice} грн</span>
               <div className="button__delimiter"></div>
               <img width={18} height={18} src={Basket} alt="basket-icon"></img>
               <span>{totalCount}</span>

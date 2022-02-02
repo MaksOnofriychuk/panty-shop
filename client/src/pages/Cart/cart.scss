@@ -391,6 +391,9 @@
   b {
     color: #dbbba9 !important;
   }
+  & .old {
+    text-decoration: line-through;
+  }
 }
 .cart__item-count-plus {
   font-size: 20px;

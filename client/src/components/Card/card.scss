@@ -49,10 +49,6 @@
       grid-template-columns: 1fr 1fr;
       grid-template-rows: 1fr 1fr;
 
-      &:first-of-type {
-        margin-bottom: 6px;
-      }
-
       li {
         padding: 8px;
         flex: 1;
@@ -61,15 +57,14 @@
         font-size: 14px;
         border: 1px solid #fff;
         transition: background, color 0.5s ease-in-out;
+
         &:hover {
           background: #c0bdbd;
-          color: #fff;
         }
 
         &.active {
-          background: #ffffff;
+          background: #c0bdbd;
           box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.04);
-          border-radius: 5px;
           cursor: auto;
         }
         &.disabled {
