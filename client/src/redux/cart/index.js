@@ -4,6 +4,8 @@ export const DELETE_PRODUCT_IN_CART = "DELETE_PRODUCT_IN_CART";
 export const PLUS_CART_ITEM = "PLUS_CART_ITEM";
 export const MINUS_CART_ITEM = "MINUS_CART_ITEM";
 export const GET_ITEMS = "GET_ITEMS";
+export const CLEAR_CART_ITEMS = "CLEAR_CART_ITEMS";
+
 const SELL_PERCENT = 50.8;
 
 const initialState = {
@@ -87,6 +89,7 @@ export default function cartReducer(state = initialState, action) {
       return {
         totalPrice: 0,
         totalCount: 0,
+        sellTotalPrice: 0,
         items: {},
       };
     }
@@ -184,6 +187,16 @@ export default function cartReducer(state = initialState, action) {
       };
     }
 
+    case CLEAR_CART_ITEMS: {
+      localStorage.clear();
+
+      return {
+        totalPrice: 0,
+        totalCount: 0,
+        items: {},
+      };
+    }
+
     default:
       return state;
   }
@@ -200,6 +213,10 @@ export const addProductToCart = (payload) => ({
 
 export const clearCartItems = () => ({
   type: CLEAR_CART,
+});
+
+export const clearCartItemsAfterSendOrdering = () => ({
+  type: CLEAR_CART_ITEMS,
 });
 
 export const deleteProductInCart = (id) => ({

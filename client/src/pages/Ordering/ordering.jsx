@@ -5,7 +5,8 @@ import "./ordering.scss";
 import { Link } from "react-router-dom/cjs/react-router-dom.min";
 import { useFormik } from "formik";
 import * as yup from "yup";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
+import { clearCartItemsAfterSendOrdering } from "../../redux/cart";
 
 const validationSchema = yup.object({
   instagram: yup.string("Введите ваш Instagram"),
@@ -32,6 +33,8 @@ const validationSchema = yup.object({
 });
 
 const Ordering = () => {
+  const dispatch = useDispatch();
+
   const [sendForm, setSendForm] = useState(false);
 
   const { items, totalPrice, sellTotalPrice, totalCount } = useSelector(
@@ -65,6 +68,7 @@ const Ordering = () => {
       api.send();
 
       setSendForm(true);
+      dispatch(clearCartItemsAfterSendOrdering());
     },
   });
 
