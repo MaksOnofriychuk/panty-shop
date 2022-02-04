@@ -305,5 +305,42 @@
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/137/mayTwo.jpg"
     ],
     "tags": ["Белый", "Чёрный", "Бежевый", "Синий", "Бордо"]
+  },
+  {
+    "_id": 26,
+    "name": "SHERON",
+    "code": "22",
+    "size": ["XS", "S", "M"],
+    "price": 45,
+    "photos": [
+      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/22/sheronOne.jpg",
+      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/22/sheronTwo.jpg"
+    ],
+    "tags": ["Белый", "Чёрный", "Бежевый", "Красный"]
+  },
+  {
+    "_id": 27,
+    "name": "BUTTERFLY",
+    "code": "712",
+    "size": ["XS", "S", "M", "L"],
+    "price": 45,
+    "photos": [
+      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/712/butterflyOne.jpg",
+      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/712/butterflyTwo.jpg",
+      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/712/butterflyThree.jpg"
+    ],
+    "tags": ["Белый", "Чёрный", "Бордо", "Красный", "Голубой", "Салатовый"]
+  },
+  {
+    "_id": 28,
+    "name": "EMILY",
+    "code": "0018",
+    "size": ["XS", "S", "M", "L"],
+    "price": 45,
+    "photos": [
+      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/0018/emilyOne.jpg",
+      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/137/emilyTwo.jpg"
+    ],
+    "tags": ["Белый", "Чёрный", "Бежевый", "Синий", "Красный"]
   }
 ]
