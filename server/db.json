@@ -265,8 +265,8 @@
     "price": 45,
     "photos": [
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/161/handyOne.jpg",
-      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/917/handyTwo.jpg",
-      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/917/handyThree.jpg"
+      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/161/handyTwo.jpg",
+      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/161/handyThree.jpg"
     ],
     "tags": ["Белый", "Чёрный", "Бежевый", "Синий", "Красный"]
   },
@@ -278,7 +278,7 @@
     "price": 45,
     "photos": [
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/1234/blackOne.jpg",
-      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/917/blackTwo.jpg"
+      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/1234/blackTwo.jpg"
     ],
     "tags": ["Чёрный"]
   },
@@ -339,7 +339,7 @@
     "price": 45,
     "photos": [
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/0018/emilyOne.jpg",
-      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/137/emilyTwo.jpg"
+      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/0018/emilyTwo.jpg"
     ],
     "tags": ["Белый", "Чёрный", "Бежевый", "Синий", "Красный"]
   }
