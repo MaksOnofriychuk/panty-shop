@@ -6,10 +6,11 @@ import Button from "../../components/Button/button";
 import { useDispatch } from "react-redux";
 import { fetchPantyById } from "../../redux/panties";
 import { SIZES } from "../../utils/constants";
-import "./panty.scss";
 import { useParams } from "react-router-dom/cjs/react-router-dom.min";
 import { addProductToCart } from "../../redux/cart";
 import Promotion from "../../components/Promotion/promotion";
+import classNames from "classnames";
+import "./panty.scss";
 
 const Panty = () => {
   const dispatch = useDispatch();
@@ -87,7 +88,10 @@ const Panty = () => {
                 <ul>
                   {SIZES.map((s, index) => (
                     <li
-                      className={activeSizeIndex === index ? "active" : ""}
+                      className={classNames({
+                        active: activeSizeIndex === index,
+                        disabled: !panty.size.includes(s),
+                      })}
                       onClick={() => onSizeSelect(index)}
                       key={index}
                     >

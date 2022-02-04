@@ -1,12 +1,12 @@
 import React from "react";
 import { useState } from "react";
 import { useDispatch } from "react-redux";
-
 import { Link } from "react-router-dom";
 import Button from "../Button/button";
 import { SIZES } from "../../utils/constants";
-import "./card.scss";
 import { addProductToCart } from "../../redux/cart";
+import classNames from "classnames";
+import "./card.scss";
 
 const Card = ({ item }) => {
   const dispatch = useDispatch();
@@ -43,7 +43,10 @@ const Card = ({ item }) => {
         <ul>
           {SIZES.map((s, index) => (
             <li
-              className={activeSizeIndex === index ? "active" : ""}
+              className={classNames({
+                active: activeSizeIndex === index,
+                disabled: !item.size.includes(s),
+              })}
               onClick={() => onSizeSelect(index)}
               key={index}
             >
