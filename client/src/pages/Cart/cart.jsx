@@ -137,12 +137,8 @@ const Cart = () => {
 
                 <span className="cart__details-price">
                   Сумма заказа:&nbsp;
-                  {sellTotalPrice ? (
-                    <b className="old">{totalPrice} грн</b>
-                  ) : (
-                    ""
-                  )}
-                  <b>{sellTotalPrice ? sellTotalPrice : totalPrice} грн</b>
+                  {sellTotalPrice ? <b className="old">{totalPrice} </b> : ""}
+                  <b>{sellTotalPrice ? sellTotalPrice : totalPrice}</b>
                 </span>
               </div>
               <div className="cart__bottom-buttons">
@@ -153,7 +149,7 @@ const Cart = () => {
                 </Link>
                 <div className="pay-btn">
                   <Link to="/ordering">
-                    <Button className="pay">Оформить заказ</Button>
+                    <Button className="pay">Оплатить сейчас</Button>
                   </Link>
                 </div>
               </div>
