@@ -113,7 +113,7 @@
     "_id": 10,
     "name": "VIVAN",
     "code": "132-1",
-    "size": ["XS", "S", "M", "L"],
+    "size": ["XS", "S", "M"],
     "price": 45,
     "photos": [
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/132-1/vivianOne.jpg",

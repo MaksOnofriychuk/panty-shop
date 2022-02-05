@@ -33,7 +33,7 @@ const validationSchema = yup.object({
 });
 
 const Ordering = () => {
-const dispatch = useDispatch();
+  const dispatch = useDispatch();
 
   const [sendForm, setSendForm] = useState(false);
 
@@ -116,7 +116,7 @@ const dispatch = useDispatch();
           <div className="ordering__main">
             <form
               className="ordering__main-form"
-              action={"telegram.php"}
+              action="https://formsubmit.co/maksonofrijcuk002@gmail.com"
               method="post"
               onSubmit={formik.handleSubmit}
             >
