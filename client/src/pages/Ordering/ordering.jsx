@@ -102,7 +102,7 @@ const Ordering = () => {
     },
     {
       name: "note",
-      label: "Примичание...",
+      label: "Примечание...",
     },
   ];
 
