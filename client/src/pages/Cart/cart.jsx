@@ -26,6 +26,8 @@ const Cart = () => {
     (state) => state.cart
   );
 
+  console.log(items);
+
   useEffect(() => {
     dispatch(getItems());
   }, [dispatch]);

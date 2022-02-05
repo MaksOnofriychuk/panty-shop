@@ -25,10 +25,11 @@ const Card = ({ item }) => {
         size: SIZES[activeSizeIndex],
         price: item.price,
         img: item.photos[0],
+        code: item.code,
       })
     );
   };
-
+  
   return (
     <div className="card-block">
       <Link to={`/panty/${item._id}`}>

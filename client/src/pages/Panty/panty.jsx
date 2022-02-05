@@ -42,6 +42,7 @@ const Panty = () => {
         size: SIZES[activeSizeIndex],
         price: panty.price,
         img: panty.photos[0],
+        code: panty.code,
       })
     );
   };
