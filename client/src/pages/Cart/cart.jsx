@@ -26,8 +26,6 @@ const Cart = () => {
     (state) => state.cart
   );
 
-  console.log(items);
-
   useEffect(() => {
     dispatch(getItems());
   }, [dispatch]);
@@ -151,7 +149,7 @@ const Cart = () => {
                 </Link>
                 <div className="pay-btn">
                   <Link to="/ordering">
-                    <Button className="pay">Оплатить сейчас</Button>
+                    <Button className="pay">Оформить сейчас</Button>
                   </Link>
                 </div>
               </div>

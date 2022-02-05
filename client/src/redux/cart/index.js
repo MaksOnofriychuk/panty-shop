@@ -66,7 +66,7 @@ export default function cartReducer(state = initialState, action) {
       const totalCount = getTotalSum(newItems, "items.length");
       const totalPrice = getTotalSum(newItems, "totalPrice");
       const sellTotalPrice =
-        totalCount >= 9
+        totalCount > 8
           ? getPriceWithSell(getTotalSum(newItems, "totalPrice"))
           : 0;
 
@@ -134,7 +134,7 @@ export default function cartReducer(state = initialState, action) {
       const totalCount = getTotalSum(newItems, "items.length");
       const totalPrice = getTotalSum(newItems, "totalPrice");
       const sellTotalPrice =
-        totalCount >= 9
+        totalCount > 8
           ? getPriceWithSell(getTotalSum(newItems, "totalPrice"))
           : 0;
 
@@ -169,7 +169,7 @@ export default function cartReducer(state = initialState, action) {
       const totalCount = getTotalSum(newItems, "items.length");
       const totalPrice = getTotalSum(newItems, "totalPrice");
       const sellTotalPrice =
-        totalCount >= 9
+        totalCount > 8
           ? getPriceWithSell(getTotalSum(newItems, "totalPrice"))
           : 0;
 
