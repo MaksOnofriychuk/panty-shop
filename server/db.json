@@ -27,7 +27,7 @@
     "_id": 3,
     "name": "LEAVES",
     "code": "6505",
-    "size": ["XS", "S", "M"],
+    "size": ["XS", "S"],
     "price": 45,
     "photos": [
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/6505/leavesOne.jpg",
@@ -162,7 +162,7 @@
     "_id": 14,
     "name": "SARA",
     "code": "3681",
-    "size": ["XS", "S", "M"],
+    "size": ["XS", "S"],
     "price": 45,
     "photos": [
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/3681/saraOne.jpg",
@@ -200,7 +200,7 @@
     "_id": 17,
     "name": "MARY",
     "code": "1122",
-    "size": ["XS", "S", "M", "L"],
+    "size": ["XS", "S", "M"],
     "price": 45,
     "photos": [
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/1122/maryOne.jpg",
@@ -212,7 +212,7 @@
     "_id": 18,
     "name": "MARGARET",
     "code": "15",
-    "size": ["XS", "S", "M"],
+    "size": ["XS", "S"],
     "price": 45,
     "photos": [
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/15/margaretOne.jpg",
@@ -249,7 +249,7 @@
     "_id": 21,
     "name": "RIO",
     "code": "917",
-    "size": ["XS", "S", "M"],
+    "size": ["XS", "S"],
     "price": 45,
     "photos": [
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/917/rioOne.jpg",
@@ -298,7 +298,7 @@
     "_id": 25,
     "name": "MAY",
     "code": "137",
-    "size": ["XS", "S", "M"],
+    "size": ["XS", "S"],
     "price": 45,
     "photos": [
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/137/mayOne.jpg",
