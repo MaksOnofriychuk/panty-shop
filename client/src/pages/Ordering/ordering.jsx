@@ -54,8 +54,8 @@ const Ordering = () => {
     },
     validationSchema: validationSchema,
     onSubmit: (values) => {
-      let token = "5222799804:AAGPA1nv85mIyGiojP2B3W4niIMHokadrZ0";
-      let chat_id = "-677289750";
+      let token = "5263543272:AAEzVEmMfZyJCW1T5q55W9ma5M2KX5jVMc4";
+      let chat_id = "-613092732";
       let my_text = JSON.stringify({
         Заказ: items,
         "Данние о пользователе": values,
