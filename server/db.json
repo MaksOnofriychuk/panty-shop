@@ -15,7 +15,7 @@
     "_id": 2,
     "name": "FLIRT",
     "code": "104",
-    "size": ["XS", "S", "M"],
+    "size": ["XS", "S"],
     "price": 45,
     "photos": [
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/104/flirtOne.jpg",
@@ -51,7 +51,7 @@
     "_id": 5,
     "name": "PENY",
     "code": "143",
-    "size": ["XS", "S", "M", "L"],
+    "size": ["XS", "S", "M"],
     "price": 45,
     "photos": [
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/143/penyOne.jpg",
@@ -123,18 +123,6 @@
     "tags": ["Чёрный", "Белый", "Бежевый", "Салатовый", "Розовый", "Желтый"]
   },
   {
-    "_id": 11,
-    "name": "VIOLA",
-    "code": "7702",
-    "size": ["XS", "S", "M", "L"],
-    "price": 45,
-    "photos": [
-      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/7702/violaOne.jpg",
-      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/7702/violaTwo.jpg"
-    ],
-    "tags": ["Чёрный", "Белый", "Бежевый"]
-  },
-  {
     "_id": 12,
     "name": "GLORIA",
     "code": "369",
@@ -150,7 +138,7 @@
     "_id": 13,
     "name": "JUDY",
     "code": "151",
-    "size": ["XS", "S", "M", "L"],
+    "size": ["XS", "S"],
     "price": 45,
     "photos": [
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/151/judyOne.jpg",
@@ -187,7 +175,7 @@
     "_id": 16,
     "name": "NANCY",
     "code": "2017",
-    "size": ["XS", "S", "M"],
+    "size": ["XS", "S", "M", "L"],
     "price": 45,
     "photos": [
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/2017/nancyOne.jpg",
@@ -200,7 +188,7 @@
     "_id": 17,
     "name": "MARY",
     "code": "1122",
-    "size": ["XS", "S", "M"],
+    "size": ["XS", "S"],
     "price": 45,
     "photos": [
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/1122/maryOne.jpg",
@@ -224,7 +212,7 @@
     "_id": 19,
     "name": "JANET",
     "code": "152",
-    "size": ["XS", "S", "M"],
+    "size": ["XS", "S"],
     "price": 45,
     "photos": [
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/152/janetOne.jpg",
