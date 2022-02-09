@@ -14,7 +14,10 @@ import "./panty.scss";
 
 const Panty = () => {
   const dispatch = useDispatch();
+
   const params = useParams();
+
+  const [errorSize, seterrorSize] = useState(false);
 
   const { id: pantyId } = params;
 
@@ -35,16 +38,21 @@ const Panty = () => {
   };
 
   const handleAddToCart = () => {
-    dispatch(
-      addProductToCart({
-        id: panty._id,
-        name: panty.name,
-        size: SIZES[activeSizeIndex],
-        price: panty.price,
-        img: panty.photos[0],
-        code: panty.code,
-      })
-    );
+    const prodCart = {
+      id: panty._id,
+      name: panty.name,
+      size: SIZES[activeSizeIndex],
+      price: panty.price,
+      img: panty.photos[0],
+      code: panty.code,
+    };
+    if (!prodCart.size) {
+      seterrorSize(true);
+      return;
+    } else {
+      seterrorSize(false);
+      dispatch(addProductToCart(prodCart));
+    }
   };
 
   return (
@@ -124,6 +132,12 @@ const Panty = () => {
               <div className="product__price">
                 <span>Цена: {panty.price} грн</span>
               </div>
+
+              {errorSize ? (
+                <div className="error__size">
+                  <span className="error__size-text">Размер не выбран</span>
+                </div>
+              ) : null}
 
               <Button
                 onClick={handleAddToCart}

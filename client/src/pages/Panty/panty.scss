@@ -138,3 +138,13 @@
   display: flex;
   justify-content: center;
 }
+.error__size {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &-text {
+    color: rgb(230, 15, 15);
+    font-size: 18px;
+  }
+}

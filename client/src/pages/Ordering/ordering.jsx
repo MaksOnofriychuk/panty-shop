@@ -55,10 +55,34 @@ const Ordering = () => {
     validationSchema: validationSchema,
     onSubmit: (values) => {
       let token = "5263543272:AAEzVEmMfZyJCW1T5q55W9ma5M2KX5jVMc4";
+
       let chat_id = "-613092732";
+
+      const obj1 = Object.keys(items);
+
+      const obj2 = obj1.map((o) => items[o]);
+
+      const obj3 = obj2.map((q) => q.items);
+
       let my_text = JSON.stringify({
-        Заказ: items,
-        "Данние о пользователе": values,
+        Заказ: obj3.map((z) =>
+          z.map((p) => ({
+            Имя: p.name,
+            Размер: p.size,
+            Код: p.code,
+          }))
+        ),
+        "Данние о пользователе": {
+          "Ник-нейм": values.instagram,
+          Имя: values.name,
+          Фамилия: values.secondName,
+          Тел: values.phone,
+          "Отдиление почты": values.postOffice,
+          Область: values.region,
+          Город: values.town,
+          Примечание: values.note,
+        },
+
         "Общая стоимость": sellTotalPrice ? sellTotalPrice : totalPrice,
         количество: totalCount,
       });
@@ -108,6 +132,15 @@ const Ordering = () => {
 
   return (
     <div className="container">
+      {/* {obj3.map((z) =>
+        z.map((p) => (
+          <div key={new Date() + Math.random()}>
+            <span>{p.name}</span>
+            <span>{p.code}</span>
+            <span>{p.size}</span>
+          </div>
+        ))
+      )} */}
       {!sendForm ? (
         <>
           <div className="ordering__top">
