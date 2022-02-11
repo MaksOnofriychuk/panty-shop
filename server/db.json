@@ -43,7 +43,8 @@
     "price": 45,
     "photos": [
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/1757/twigOne.jpg",
-      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/1757/twigTwo.jpg"
+      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/1757/twigTwo.jpg",
+      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/1757/twigThree.jpg"
     ],
     "tags": ["Чёрный", "Белый", "Бежевый", "Красный"]
   },
@@ -166,8 +167,7 @@
     "price": 45,
     "photos": [
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/613/nicoleOne.jpg",
-      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/613/nicoleTwo.jpg",
-      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/613/nicoleThree.jpg"
+      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/613/nicoleTwo.jpg"
     ],
     "tags": ["Красный", "Белый", "Бежевый", "Лиловый", "Синий"]
   },
@@ -330,5 +330,119 @@
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/0018/emilyTwo.jpg"
     ],
     "tags": ["Белый", "Чёрный", "Бежевый", "Синий", "Красный"]
+  },
+  {
+    "_id": 29,
+    "name": "BEATRICE",
+    "code": "815",
+    "size": ["XS", "S", "M", "L"],
+    "price": 45,
+    "photos": [
+      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/815/beatriceOne.jpg",
+      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/815/beatriceTwo.jpg",
+      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/815/beatriceThree.jpg"
+    ],
+    "tags": ["Бежевый"]
+  },
+  {
+    "_id": 30,
+    "name": "BETTY",
+    "code": "660",
+    "size": ["XS", "S", "M", "L"],
+    "price": 45,
+    "photos": [
+      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/660/bettyOne.jpg",
+      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/660/bettyTwo.jpg",
+      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/660/bettyThree.jpg"
+    ],
+    "tags": ["Бежевый", "Чёрный", "Бордо", "Синий", "Белый"]
+  },
+  {
+    "_id": 31,
+    "name": "BLACK-ROSE",
+    "code": "8915",
+    "size": ["XS", "S", "M", "L"],
+    "price": 45,
+    "photos": [
+      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/8915/blackRoseOne.jpg",
+      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/8915/blackRoseTwo.jpg"
+    ],
+    "tags": ["Чёрный"]
+  },
+  {
+    "_id": 32,
+    "name": "ROSE",
+    "code": "0030",
+    "size": ["XS", "S", "M", "L"],
+    "price": 45,
+    "photos": [
+      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/0030/roseOne.jpg",
+      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/0030/roseTwo.jpg",
+      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/0030/roseThree.jpg"
+    ],
+    "tags": ["Чёрный"]
+  },
+  {
+    "_id": 33,
+    "name": "LOVE",
+    "code": "005",
+    "size": ["XS", "S", "M", "L"],
+    "price": 45,
+    "photos": [
+      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/005/loveOne.jpg",
+      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/005/loveTwo.jpg",
+      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/005/loveThree.jpg"
+    ],
+    "tags": ["Чёрный", "Синий", "Бежевый", "Красный", "Белый"]
+  },
+  {
+    "_id": 34,
+    "name": "LINDA",
+    "code": "0666",
+    "size": ["XS", "S", "M", "L"],
+    "price": 45,
+    "photos": [
+      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/0666/lindaOne.jpg",
+      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/0666/lindaTwo.jpg",
+      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/0666/lindaThree.jpg"
+    ],
+    "tags": ["Чёрный", "Синий", "Красный", "Белый", "Бордо", "Лиловый"]
+  },
+  {
+    "_id": 34,
+    "name": "MADELINE",
+    "code": "8934",
+    "size": ["XS", "S", "M", "L"],
+    "price": 45,
+    "photos": [
+      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/8934/madelineOne.jpg",
+      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/8934/madelineTwo.jpg",
+      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/8934/madelineThree.jpg"
+    ],
+    "tags": ["Красный", "Белый", "Бордо", "Синий", "Бежевый", "Оранжевый"]
+  },
+  {
+    "_id": 35,
+    "name": "TINA",
+    "code": "035",
+    "size": ["XS", "S", "M"],
+    "price": 45,
+    "photos": [
+      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/035/tinaOne.jpg",
+      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/035/tinaTwo.jpg"
+    ],
+    "tags": ["Красный", "Белый", "Синий", "Бежевый", "Чёрный"]
+  },
+  {
+    "_id": 36,
+    "name": "ELLA",
+    "code": "518",
+    "size": ["XS", "S"],
+    "price": 45,
+    "photos": [
+      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/518/ellaOne.jpg",
+      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/518/ellaTwo.jpg"
+    ],
+    "tags": ["Красный", "Белый", "Синий", "Бежевый", "Чёрный"]
   }
 ]
