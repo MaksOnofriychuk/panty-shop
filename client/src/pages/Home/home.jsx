@@ -1,6 +1,7 @@
 import React from "react";
 import Panties from "../../components/Panties/panties";
 import Promotion from "../../components/Promotion/promotion";
+import Categories from "../../components/Categories/categories";
 import "./home.scss";
 
 const Home = () => {

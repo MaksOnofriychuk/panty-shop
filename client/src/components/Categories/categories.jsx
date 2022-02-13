@@ -1,16 +1,16 @@
 import Button from "../Button/button";
 import React, { useState } from "react";
 import "./categories.scss";
-import { useSelector } from "react-redux";
-import { useDispatch } from "react-redux";
-import { setCategory } from "../../redux/actions/filtersAction";
+// import { useSelector } from "react-redux";
+// import { useDispatch } from "react-redux";
+// import { setCategory } from "../../redux/actions/filtersAction";
 
 const Categories = () => {
   const [burger, setBurger] = useState(false);
 
-  const dispatch = useDispatch();
+  // const dispatch = useDispatch();
 
-  const { category } = useSelector((state) => state.product);
+  // const { category } = useSelector((state) => state.product);
 
   const handleClick = () => {
     setBurger(!burger);
@@ -19,16 +19,16 @@ const Categories = () => {
     setBurger(false);
   };
 
-  const categories = ["Все", "Стринг", "Флип"];
+  const categories = ["Все", "Трусики", "Колготки"];
 
-  const handleClicks = (index, cat) => {
-    const categoryObj = {
-      index,
-      cat,
-    };
-    dispatch(setCategory(categoryObj));
-  };
-  
+  // const handleClicks = (index, cat) => {
+  //   const categoryObj = {
+  //     index,
+  //     cat,
+  //   };
+  //   dispatch(setCategory(categoryObj));
+  // };
+
   return (
     <>
       <div className="categories">
@@ -36,8 +36,8 @@ const Categories = () => {
           {categories.map((cat, index) => (
             <li
               key={new Date() + Math.random()}
-              className={category.catIndx === index ? "active" : ""}
-              onClick={() => handleClicks(index, cat)}
+              // className={category.catIndx === index ? "active" : ""}
+              // onClick={() => handleClicks(index, cat)}
             >
               {cat}
             </li>

@@ -62,19 +62,6 @@
     "tags": ["Чёрный", "Белый", "Салатовый", "Розовый", "Шоколад"]
   },
   {
-    "_id": 6,
-    "name": "FLOWER",
-    "code": "621",
-    "size": ["XS", "S"],
-    "price": 45,
-    "photos": [
-      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/621/flowerOne.jpg",
-      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/621/flowerTwo.jpg",
-      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/621/flowerThree.jpg"
-    ],
-    "tags": ["Чёрный", "Белый", "Бежевый", "Розовый", "Синий"]
-  },
-  {
     "_id": 7,
     "name": "DAISY",
     "code": "148",
@@ -146,18 +133,6 @@
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/151/judyTwo.jpg"
     ],
     "tags": ["Красный", "Белый", "Бежевый"]
-  },
-  {
-    "_id": 14,
-    "name": "SARA",
-    "code": "3681",
-    "size": ["XS", "S"],
-    "price": 45,
-    "photos": [
-      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/3681/saraOne.jpg",
-      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/3681/saraTwo.jpg"
-    ],
-    "tags": ["Розовый", "Белый", "Бежевый", "Голубой", "Чёрный"]
   },
   {
     "_id": 15,
@@ -425,7 +400,7 @@
     "_id": 35,
     "name": "TINA",
     "code": "035",
-    "size": ["XS", "S", "M"],
+    "size": ["XS", "S"],
     "price": 45,
     "photos": [
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/035/tinaOne.jpg",
