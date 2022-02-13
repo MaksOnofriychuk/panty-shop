@@ -400,7 +400,7 @@
     "_id": 35,
     "name": "TINA",
     "code": "035",
-    "size": ["XS", "S"],
+    "size": ["XS"],
     "price": 45,
     "photos": [
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/035/tinaOne.jpg",
