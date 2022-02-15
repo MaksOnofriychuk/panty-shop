@@ -9,7 +9,9 @@ import { useDispatch, useSelector } from "react-redux";
 import { clearAllSendForm } from "../../redux/cart";
 
 const validationSchema = yup.object({
-  instagram: yup.string("Введите ваш Instagram"),
+  instagram: yup
+    .string("Введите ваш Instagram")
+    .required("Поле является обязательным для заполнения"),
   name: yup
     .string("Введите ваше имя")
     .required("Поле является обязательным для заполнения"),
