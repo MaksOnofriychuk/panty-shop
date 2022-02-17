@@ -386,18 +386,6 @@
     "tags": ["Красный", "Белый", "Синий", "Бежевый", "Чёрный"]
   },
   {
-    "_id": 32,
-    "name": "ELLA",
-    "code": "518",
-    "size": ["XS", "S"],
-    "price": 45,
-    "photos": [
-      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/518/ellaOne.jpg",
-      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/518/ellaTwo.jpg"
-    ],
-    "tags": ["Красный", "Белый", "Синий", "Бежевый", "Чёрный"]
-  },
-  {
     "_id": 33,
     "name": "CAMILLA",
     "code": "52174",
