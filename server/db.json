@@ -235,18 +235,6 @@
     "tags": ["Белый", "Чёрный"]
   },
   {
-    "_id": 20,
-    "name": "MAY",
-    "code": "137",
-    "size": ["XS", "S"],
-    "price": 45,
-    "photos": [
-      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/137/mayOne.jpg",
-      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/137/mayTwo.jpg"
-    ],
-    "tags": ["Белый", "Чёрный", "Бежевый", "Синий", "Бордо"]
-  },
-  {
     "_id": 21,
     "name": "SHERON",
     "code": "22",
