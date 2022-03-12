@@ -374,26 +374,7 @@
     ],
     "tags": ["Красный"]
   },
-  {
-    "_id": 34,
-    "name": "MIA",
-    "code": "5678",
-    "size": ["XS", "S", "M"],
-    "price": 45,
-    "photos": [
-      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/5678/miaOne.jpg",
-      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/5678/miaTwo.jpg"
-    ],
-    "tags": [
-      "Красный",
-      "Белый",
-      "Синий",
-      "Бежевый",
-      "Оранжевый",
-      "Розовый",
-      "Голубой"
-    ]
-  },
+
   {
     "_id": 35,
     "name": "MONICA",
