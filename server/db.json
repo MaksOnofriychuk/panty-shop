@@ -248,18 +248,6 @@
     "tags": ["Белый", "Чёрный", "Бордо", "Красный", "Голубой", "Салатовый"]
   },
   {
-    "_id": 23,
-    "name": "EMILY",
-    "code": "0018",
-    "size": ["XS", "S", "M", "L"],
-    "price": 45,
-    "photos": [
-      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/0018/emilyOne.jpg",
-      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/0018/emilyTwo.jpg"
-    ],
-    "tags": ["Белый", "Чёрный", "Бежевый", "Синий", "Красный"]
-  },
-  {
     "_id": 24,
     "name": "BEATRICE",
     "code": "815",
