@@ -65,7 +65,7 @@
     "_id": 6,
     "name": "DAISY",
     "code": "148",
-    "size": ["XS", "S", "M", "L"],
+    "size": ["XS", "S"],
     "price": 45,
     "photos": [
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/148/daisyOne.jpg",
@@ -214,7 +214,7 @@
     "_id": 18,
     "name": "BLACK",
     "code": "1234",
-    "size": ["XS", "S", "M", "L"],
+    "size": ["XS", "S"],
     "price": 45,
     "photos": [
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/1234/blackOne.jpg",
@@ -347,19 +347,6 @@
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/0666/lindaThree.jpg"
     ],
     "tags": ["Чёрный", "Синий", "Красный", "Белый", "Бордо", "Лиловый"]
-  },
-  {
-    "_id": 30,
-    "name": "MADELINE",
-    "code": "8934",
-    "size": ["XS", "S", "M", "L"],
-    "price": 45,
-    "photos": [
-      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/8934/madelineOne.jpg",
-      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/8934/madelineTwo.jpg",
-      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/8934/madelineThree.jpg"
-    ],
-    "tags": ["Красный", "Белый", "Бордо", "Синий", "Бежевый", "Оранжевый"]
   },
   {
     "_id": 33,
