@@ -274,18 +274,6 @@
     "tags": ["Бежевый", "Чёрный", "Бордо", "Синий", "Белый"]
   },
   {
-    "_id": 26,
-    "name": "BLACK-ROSE",
-    "code": "8915",
-    "size": ["XS", "S", "M", "L"],
-    "price": 45,
-    "photos": [
-      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/8915/blackRoseOne.jpg",
-      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/8915/blackRoseTwo.jpg"
-    ],
-    "tags": ["Чёрный"]
-  },
-  {
     "_id": 27,
     "name": "ROSE",
     "code": "0030",
