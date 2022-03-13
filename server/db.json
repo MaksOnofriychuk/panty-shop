@@ -360,19 +360,5 @@
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/52174/camillaThree.jpg"
     ],
     "tags": ["Красный"]
-  },
-
-  {
-    "_id": 35,
-    "name": "MONICA",
-    "code": "900",
-    "size": ["XS", "S", "M"],
-    "price": 45,
-    "photos": [
-      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/900/monicaOne.jpg",
-      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/900/monicaTwo.jpg",
-      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/900/monicaThree.jpg"
-    ],
-    "tags": ["Чёрный"]
   }
 ]
