@@ -174,19 +174,6 @@
   },
   {
     "_id": 15,
-    "name": "SPEECH",
-    "code": "2079",
-    "size": ["XS", "S", "M", "L"],
-    "price": 45,
-    "photos": [
-      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/2079/speechOne.jpg",
-      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/2079/speechTwo.jpg",
-      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/2079/speechThree.jpg"
-    ],
-    "tags": ["Белый", "Чёрный", "Бежевый", "Синий"]
-  },
-  {
-    "_id": 16,
     "name": "RIO",
     "code": "917",
     "size": ["XS", "S"],
@@ -198,7 +185,7 @@
     "tags": ["Белый", "Чёрный"]
   },
   {
-    "_id": 17,
+    "_id": 16,
     "name": "HANDY",
     "code": "161",
     "size": ["XS", "S", "M", "L"],
@@ -211,7 +198,7 @@
     "tags": ["Белый", "Чёрный", "Бежевый", "Синий", "Красный"]
   },
   {
-    "_id": 18,
+    "_id": 17,
     "name": "BLACK",
     "code": "1234",
     "size": ["XS", "S"],
@@ -223,7 +210,7 @@
     "tags": ["Чёрный"]
   },
   {
-    "_id": 19,
+    "_id": 18,
     "name": "KELLY",
     "code": "8933",
     "size": ["XS", "S", "M", "L"],
@@ -235,7 +222,7 @@
     "tags": ["Белый", "Чёрный"]
   },
   {
-    "_id": 20,
+    "_id": 19,
     "name": "BUTTERFLY",
     "code": "712",
     "size": ["XS", "S", "M", "L"],
@@ -248,7 +235,7 @@
     "tags": ["Белый", "Чёрный", "Бордо", "Красный", "Голубой", "Салатовый"]
   },
   {
-    "_id": 21,
+    "_id": 20,
     "name": "BEATRICE",
     "code": "815",
     "size": ["XS", "S", "M", "L"],
@@ -261,7 +248,7 @@
     "tags": ["Бежевый"]
   },
   {
-    "_id": 22,
+    "_id": 21,
     "name": "BETTY",
     "code": "660",
     "size": ["XS", "S", "M", "L"],
@@ -274,7 +261,7 @@
     "tags": ["Бежевый", "Чёрный", "Бордо", "Синий", "Белый"]
   },
   {
-    "_id": 23,
+    "_id": 22,
     "name": "ROSE",
     "code": "0030",
     "size": ["XS", "S", "M", "L"],
@@ -287,7 +274,7 @@
     "tags": ["Чёрный"]
   },
   {
-    "_id": 24,
+    "_id": 23,
     "name": "LOVE",
     "code": "005",
     "size": ["XS", "S", "M", "L"],
@@ -300,7 +287,7 @@
     "tags": ["Чёрный", "Синий", "Бежевый", "Красный", "Белый"]
   },
   {
-    "_id": 25,
+    "_id": 24,
     "name": "LINDA",
     "code": "0666",
     "size": ["XS", "S", "M", "L"],
@@ -313,7 +300,7 @@
     "tags": ["Чёрный", "Синий", "Красный", "Белый", "Бордо", "Лиловый"]
   },
   {
-    "_id": 26,
+    "_id": 25,
     "name": "CAMILLA",
     "code": "52174",
     "size": ["XS", "S", "M", "L"],
