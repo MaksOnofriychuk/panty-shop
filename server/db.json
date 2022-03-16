@@ -40,7 +40,7 @@
     "_id": 4,
     "name": "PENY",
     "code": "143",
-    "size": ["XS", "S", "M"],
+    "size": ["XS", "S"],
     "price": 45,
     "photos": [
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/143/penyOne.jpg",
@@ -86,24 +86,11 @@
     ],
     "tags": ["Чёрный", "Белый", "Бежевый", "Салатовый", "Розовый", "Желтый"]
   },
-
   {
     "_id": 8,
-    "name": "NICOLE",
-    "code": "613",
-    "size": ["XS", "S", "M", "L"],
-    "price": 45,
-    "photos": [
-      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/613/nicoleOne.jpg",
-      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/613/nicoleTwo.jpg"
-    ],
-    "tags": ["Красный", "Белый", "Бежевый", "Лиловый", "Синий"]
-  },
-  {
-    "_id": 9,
     "name": "MARY",
     "code": "1122",
-    "size": ["XS", "S"],
+    "size": ["XS", "S", "M"],
     "price": 45,
     "photos": [
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/1122/maryOne.jpg",
@@ -112,7 +99,7 @@
     "tags": ["Белый", "Бежевый", "Розовый", "Чёрный"]
   },
   {
-    "_id": 10,
+    "_id": 9,
     "name": "MARGARET",
     "code": "15",
     "size": ["XS", "S"],
@@ -124,7 +111,7 @@
     "tags": ["Белый", "Бежевый", "Синий", "Чёрный"]
   },
   {
-    "_id": 11,
+    "_id": 10,
     "name": "JANET",
     "code": "152",
     "size": ["XS", "S"],
@@ -136,7 +123,7 @@
     "tags": ["Белый", "Салатовый", "Розовый", "Чёрный", "Оранжевый"]
   },
   {
-    "_id": 12,
+    "_id": 11,
     "name": "RIO",
     "code": "917",
     "size": ["XS", "S"],
@@ -148,7 +135,7 @@
     "tags": ["Белый", "Чёрный"]
   },
   {
-    "_id": 13,
+    "_id": 12,
     "name": "HANDY",
     "code": "161",
     "size": ["XS", "S", "M", "L"],
@@ -161,19 +148,7 @@
     "tags": ["Белый", "Чёрный", "Бежевый", "Синий", "Красный"]
   },
   {
-    "_id": 14,
-    "name": "BLACK",
-    "code": "1234",
-    "size": ["XS", "S", "M"],
-    "price": 45,
-    "photos": [
-      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/1234/blackOne.jpg",
-      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/1234/blackTwo.jpg"
-    ],
-    "tags": ["Чёрный"]
-  },
-  {
-    "_id": 15,
+    "_id": 13,
     "name": "BUTTERFLY",
     "code": "712",
     "size": ["XS", "S", "M", "L"],
@@ -186,7 +161,7 @@
     "tags": ["Белый", "Чёрный", "Бордо", "Красный", "Голубой", "Салатовый"]
   },
   {
-    "_id": 16,
+    "_id": 14,
     "name": "BEATRICE",
     "code": "815",
     "size": ["XS", "S", "M", "L"],
@@ -199,23 +174,10 @@
     "tags": ["Бежевый"]
   },
   {
-    "_id": 17,
-    "name": "BETTY",
-    "code": "660",
-    "size": ["XS", "S", "M", "L"],
-    "price": 45,
-    "photos": [
-      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/660/bettyOne.jpg",
-      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/660/bettyTwo.jpg",
-      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/660/bettyThree.jpg"
-    ],
-    "tags": ["Бежевый", "Чёрный", "Бордо", "Синий", "Белый"]
-  },
-  {
-    "_id": 18,
+    "_id": 15,
     "name": "LOVE",
     "code": "005",
-    "size": ["XS", "S", "M", "L"],
+    "size": ["XS", "S"],
     "price": 45,
     "photos": [
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/005/loveOne.jpg",
@@ -225,7 +187,7 @@
     "tags": ["Чёрный", "Синий", "Бежевый", "Красный", "Белый"]
   },
   {
-    "_id": 19,
+    "_id": 16,
     "name": "LINDA",
     "code": "0666",
     "size": ["XS", "S", "M", "L"],
@@ -238,7 +200,7 @@
     "tags": ["Чёрный", "Синий", "Красный", "Белый", "Бордо", "Лиловый"]
   },
   {
-    "_id": 20,
+    "_id": 17,
     "name": "CAMILLA",
     "code": "52174",
     "size": ["XS", "S", "M", "L"],
@@ -251,7 +213,7 @@
     "tags": ["Красный"]
   },
   {
-    "_id": 21,
+    "_id": 18,
     "name": "BLACK-ROSE",
     "code": "8915",
     "size": ["XS", "S", "M", "L"],
