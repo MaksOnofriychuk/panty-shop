@@ -74,19 +74,6 @@
   },
   {
     "_id": 7,
-    "name": "HANDY",
-    "code": "161",
-    "size": ["XS", "S", "M", "L"],
-    "price": 45,
-    "photos": [
-      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/161/handyOne.jpg",
-      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/161/handyTwo.jpg",
-      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/161/handyThree.jpg"
-    ],
-    "tags": ["Белый", "Чёрный", "Бежевый", "Синий", "Красный"]
-  },
-  {
-    "_id": 8,
     "name": "BUTTERFLY",
     "code": "712",
     "size": ["XS", "S", "M", "L"],
@@ -99,7 +86,7 @@
     "tags": ["Белый", "Чёрный", "Бордо", "Красный", "Голубой", "Салатовый"]
   },
   {
-    "_id": 9,
+    "_id": 8,
     "name": "LOVE",
     "code": "005",
     "size": ["XS", "S"],
@@ -112,7 +99,7 @@
     "tags": ["Чёрный", "Синий", "Бежевый", "Красный", "Белый"]
   },
   {
-    "_id": 10,
+    "_id": 9,
     "name": "LINDA",
     "code": "0666",
     "size": ["S", "M"],
@@ -125,7 +112,7 @@
     "tags": ["Чёрный", "Синий", "Красный", "Белый", "Бордо", "Лиловый"]
   },
   {
-    "_id": 11,
+    "_id": 10,
     "name": "CAMILLA",
     "code": "52174",
     "size": ["XS", "S", "M", "L"],
@@ -138,7 +125,7 @@
     "tags": ["Красный"]
   },
   {
-    "_id": 12,
+    "_id": 11,
     "name": "BLACK-ROSE",
     "code": "8915",
     "size": ["XS", "S", "M", "L"],
