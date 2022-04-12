@@ -22,7 +22,7 @@
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/1757/twigTwo.jpg",
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/1757/twigThree.jpg"
     ],
-    "tags": ["Чёрный", "Белый", "Бежевый", "Красный"]
+    "tags": ["Чёрный", "Белый", "Бежевый", "Красный", "Синий"]
   },
   {
     "_id": 3,
@@ -109,7 +109,7 @@
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/7703/liliOne.jpg",
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/7703/liliTwo.jpg"
     ],
-    "tags": ["Чёрный"]
+    "tags": ["Чёрный", "Белый", "Бежевый"]
   },
   {
     "_id": 10,
@@ -122,7 +122,7 @@
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/143/penyTwo.jpg",
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/143/penyThree.jpg"
     ],
-    "tags": ["Чёрный"]
+    "tags": ["Чёрный", "Белый", "Салатовый"]
   },
   {
     "_id": 11,
@@ -165,7 +165,7 @@
     "_id": 14,
     "name": "SHERON",
     "code": "22",
-    "size": ["XS", "S", "M", "L"],
+    "size": ["XS", "S", "M"],
     "price": 49,
     "photos": [
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/22/sheronOne.jpg",
