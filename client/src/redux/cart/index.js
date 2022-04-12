@@ -6,7 +6,7 @@ export const MINUS_CART_ITEM = "MINUS_CART_ITEM";
 export const GET_ITEMS = "GET_ITEMS";
 export const AFTER_SEND_FORM = "AFTER_SEND_FORM";
 
-const SELL_PERCENT = 50.8;
+const SELL_PERCENT = 41.8;
 
 const initialState = {
   items: {},
@@ -66,7 +66,7 @@ export default function cartReducer(state = initialState, action) {
       const totalCount = getTotalSum(newItems, "items.length");
       const totalPrice = getTotalSum(newItems, "totalPrice");
       const sellTotalPrice =
-        totalCount > 8
+        totalCount > 6
           ? getPriceWithSell(getTotalSum(newItems, "totalPrice"))
           : 0;
 
@@ -134,7 +134,7 @@ export default function cartReducer(state = initialState, action) {
       const totalCount = getTotalSum(newItems, "items.length");
       const totalPrice = getTotalSum(newItems, "totalPrice");
       const sellTotalPrice =
-        totalCount > 8
+        totalCount > 6
           ? getPriceWithSell(getTotalSum(newItems, "totalPrice"))
           : 0;
 
@@ -169,7 +169,7 @@ export default function cartReducer(state = initialState, action) {
       const totalCount = getTotalSum(newItems, "items.length");
       const totalPrice = getTotalSum(newItems, "totalPrice");
       const sellTotalPrice =
-        totalCount > 8
+        totalCount > 6
           ? getPriceWithSell(getTotalSum(newItems, "totalPrice"))
           : 0;
 
