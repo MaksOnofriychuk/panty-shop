@@ -51,19 +51,6 @@
   },
   {
     "_id": 5,
-    "name": "CAMILLA",
-    "code": "52174",
-    "size": ["XS", "S", "M", "L"],
-    "price": 49,
-    "photos": [
-      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/52174/camillaOne.jpg",
-      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/52174/camillaTwo.jpg",
-      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/52174/camillaThree.jpg"
-    ],
-    "tags": ["Красный"]
-  },
-  {
-    "_id": 6,
     "name": "BLACK-ROSE",
     "code": "8915",
     "size": ["XS", "S", "M", "L"],
@@ -75,7 +62,7 @@
     "tags": ["Чёрный"]
   },
   {
-    "_id": 7,
+    "_id": 6,
     "name": "LILI",
     "code": "7703",
     "size": ["XS", "S", "M", "L"],
@@ -87,7 +74,7 @@
     "tags": ["Чёрный", "Белый", "Бежевый"]
   },
   {
-    "_id": 8,
+    "_id": 7,
     "name": "PENY",
     "code": "143",
     "size": ["XS", "S", "M", "L"],
@@ -100,7 +87,7 @@
     "tags": ["Чёрный", "Белый", "Салатовый"]
   },
   {
-    "_id": 9,
+    "_id": 8,
     "name": "AMALIA",
     "code": "644",
     "size": ["XS", "S", "M", "L"],
@@ -112,7 +99,7 @@
     "tags": ["Чёрный", "Бежевый", "Лиловый", "Красный", "Синий"]
   },
   {
-    "_id": 10,
+    "_id": 9,
     "name": "NANCY",
     "code": "2017",
     "size": ["XS", "S", "M", "L"],
@@ -125,7 +112,7 @@
     "tags": ["Белый", "Оранжевый", "Розовый"]
   },
   {
-    "_id": 11,
+    "_id": 10,
     "name": "NICOLE",
     "code": "613",
     "size": ["XS", "S", "M", "L"],
@@ -137,7 +124,7 @@
     "tags": ["Белый", "Бежевый", "Лиловый", "Красный", "Синий"]
   },
   {
-    "_id": 12,
+    "_id": 11,
     "name": "SHERON",
     "code": "22",
     "size": ["XS", "S", "M"],
@@ -149,7 +136,7 @@
     "tags": ["Чёрный", "Белый", "Бежевый", "Красный"]
   },
   {
-    "_id": 13,
+    "_id": 12,
     "name": "BEATRICE",
     "code": "815",
     "size": ["XS", "S", "M", "L"],
@@ -162,7 +149,7 @@
     "tags": ["Бежевый"]
   },
   {
-    "_id": 14,
+    "_id": 13,
     "name": "BETTY",
     "code": "660",
     "size": ["XS", "S", "M", "L"],
@@ -175,20 +162,7 @@
     "tags": ["Бежевый", "Чёрный", "Бордо", "Синий", "Белый"]
   },
   {
-    "_id": 15,
-    "name": "MADELINE",
-    "code": "8934",
-    "size": ["XS", "S", "M", "L"],
-    "price": 49,
-    "photos": [
-      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/8934/madelineOne.jpg",
-      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/8934/madelineTwo.jpg",
-      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/8934/madelineThree.jpg"
-    ],
-    "tags": ["Синий", "Красный", "Бежевый", "Оранжевый", "Бордо", "Белый"]
-  },
-  {
-    "_id": 16,
+    "_id": 14,
     "name": "LEAVES",
     "code": "6505",
     "size": ["XS", "S", "M", "L"],
@@ -200,7 +174,7 @@
     "tags": ["Синий", "Белый"]
   },
   {
-    "_id": 17,
+    "_id": 15,
     "name": "SPEECH",
     "code": "2079",
     "size": ["XS", "S", "M", "L"],
@@ -213,7 +187,7 @@
     "tags": ["Синий", "Белый", "Бежевый", "Чёрный"]
   },
   {
-    "_id": 18,
+    "_id": 16,
     "name": "HANDY",
     "code": "161",
     "size": ["XS", "S", "M", "L"],
@@ -226,7 +200,7 @@
     "tags": ["Синий", "Белый", "Бежевый", "Чёрный", "Красный"]
   },
   {
-    "_id": 19,
+    "_id": 17,
     "name": "BLACK",
     "code": "1234",
     "size": ["XS", "S", "M", "L"],
@@ -238,7 +212,7 @@
     "tags": ["Чёрный"]
   },
   {
-    "_id": 20,
+    "_id": 18,
     "name": "KELLY",
     "code": "8933",
     "size": ["XS", "S", "M", "L"],
@@ -250,7 +224,7 @@
     "tags": ["Чёрный", "Белый", "Бежевый", "Красный", "Оранжевый"]
   },
   {
-    "_id": 21,
+    "_id": 19,
     "name": "EMILY",
     "code": "0018",
     "size": ["XS", "S", "M", "L"],
@@ -262,7 +236,7 @@
     "tags": ["Чёрный", "Белый", "Бежевый", "Красный", "Оранжевый"]
   },
   {
-    "_id": 22,
+    "_id": 20,
     "name": "RUMI",
     "code": "12",
     "size": ["XS", "S", "M", "L"],
@@ -274,7 +248,7 @@
     "tags": ["Чёрный", "Лиловый"]
   },
   {
-    "_id": 23,
+    "_id": 21,
     "name": "FLIRT",
     "code": "104",
     "size": ["XS", "S", "M"],
