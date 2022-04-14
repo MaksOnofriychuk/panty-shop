@@ -12,6 +12,9 @@ const Home = () => {
         {/* <Sort /> */}
       </div>
       <Promotion />
+      <p className="sub__promotion">
+        по условиям этой акции цвет идёт на наше усмотрение
+      </p>
       <h2 className="content__title">Все трусики</h2>
       <Panties />
     </div>
