@@ -162,7 +162,7 @@
   },
 
   {
-    "_id": 15,
+    "_id": 14,
     "name": "HANDY",
     "code": "161",
     "size": ["XS", "S", "M", "L"],
@@ -175,7 +175,7 @@
     "tags": ["Синий", "Белый", "Бежевый", "Чёрный", "Красный"]
   },
   {
-    "_id": 16,
+    "_id": 15,
     "name": "BLACK",
     "code": "1234",
     "size": ["XS", "S", "M", "L"],
@@ -187,7 +187,7 @@
     "tags": ["Чёрный"]
   },
   {
-    "_id": 17,
+    "_id": 16,
     "name": "RUMI",
     "code": "12",
     "size": ["XS", "S", "M", "L"],
@@ -199,7 +199,7 @@
     "tags": ["Чёрный", "Лиловый"]
   },
   {
-    "_id": 18,
+    "_id": 17,
     "name": "FLIRT",
     "code": "104",
     "size": ["XS", "S", "M"],
@@ -211,7 +211,7 @@
     "tags": ["Лиловый", "Белый", "Чёрный"]
   },
   {
-    "_id": 19,
+    "_id": 18,
     "name": "EMILY",
     "code": "0018",
     "size": ["XS", "S", "M", "L"],
@@ -223,7 +223,7 @@
     "tags": ["Бежевый", "Белый", "Чёрный", "Синий", "Красный"]
   },
   {
-    "_id": 20,
+    "_id": 19,
     "name": "KELLY",
     "code": "8933",
     "size": ["XS", "S", "M", "L"],
@@ -235,7 +235,7 @@
     "tags": ["Бежевый", "Белый", "Чёрный", "Красный", "Красный"]
   },
   {
-    "_id": 21,
+    "_id": 20,
     "name": "MADELINE",
     "code": "8934",
     "size": ["XS", "S", "M", "L"],
@@ -248,7 +248,7 @@
     "tags": ["Бежевый", "Белый", "Чёрный", "Красный", "Красный"]
   },
   {
-    "_id": 22,
+    "_id": 21,
     "name": "NANCY",
     "code": "2017",
     "size": ["XS", "S", "M", "L"],
@@ -257,6 +257,18 @@
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/2017/nancyOne.jpg",
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/2017/nancyTwo.jpg",
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/2017/nancyThree.jpg"
+    ],
+    "tags": ["Бежевый", "Белый", "Чёрный", "Красный", "Красный"]
+  },
+  {
+    "_id": 22,
+    "name": "MIA",
+    "code": "5678",
+    "size": ["XS", "S", "M"],
+    "price": 49,
+    "photos": [
+      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/5678/miaOne.jpg",
+      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/5678/miaTwo.jpg"
     ],
     "tags": ["Бежевый", "Белый", "Чёрный", "Красный", "Красный"]
   }
