@@ -160,19 +160,7 @@
     ],
     "tags": ["Синий", "Белый"]
   },
-  {
-    "_id": 14,
-    "name": "SPEECH",
-    "code": "2079",
-    "size": ["XS", "S", "M", "L"],
-    "price": 49,
-    "photos": [
-      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/2079/speechOne.jpg",
-      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/2079/speechTwo.jpg",
-      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/2079/speechTwo.jpg"
-    ],
-    "tags": ["Синий", "Белый", "Бежевый", "Чёрный"]
-  },
+
   {
     "_id": 15,
     "name": "HANDY",
