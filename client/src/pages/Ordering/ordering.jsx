@@ -53,6 +53,7 @@ const Ordering = () => {
       town: "",
       postOffice: "",
       note: "",
+      bank: "",
     },
     validationSchema: validationSchema,
     onSubmit: (values) => {
@@ -79,6 +80,7 @@ const Ordering = () => {
           Имя: values.name,
           Фамилия: values.secondName,
           Тел: values.phone,
+          Банк: values.bank,
           "Отдиление почты": values.postOffice,
           Область: values.region,
           Город: values.town,
@@ -129,6 +131,10 @@ const Ordering = () => {
     {
       name: "note",
       label: "Примечание...",
+    },
+    {
+      name: "bank",
+      label: "Банк оплаты",
     },
   ];
 
