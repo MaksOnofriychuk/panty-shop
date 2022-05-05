@@ -177,7 +177,7 @@
     "_id": 15,
     "name": "LEAVES",
     "code": "6505",
-    "size": ["XS", "S", "M"],
+    "size": ["XS", "S"],
     "price": 49,
     "photos": [
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/6505/leavesOne.jpg",
