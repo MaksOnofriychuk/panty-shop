@@ -16,7 +16,7 @@
     "_id": 2,
     "name": "DAISY",
     "code": "148",
-    "size": ["XS", "S", "M", "L"],
+    "size": ["XS", "S", "M"],
     "price": 49,
     "photos": [
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/148/daisyOne.jpg",
@@ -203,7 +203,7 @@
     "_id": 17,
     "name": "BLACK",
     "code": "1234",
-    "size": ["XS", "S", "M"],
+    "size": ["XS", "S", "M", "L"],
     "price": 49,
     "photos": [
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/1234/blackOne.jpg",
