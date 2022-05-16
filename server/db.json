@@ -53,7 +53,7 @@
     "_id": 5,
     "name": "LILI",
     "code": "7703",
-    "size": ["XS", "S", "M", "L"],
+    "size": ["XS", "S", "M"],
     "price": 49,
     "photos": [
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/7703/liliOne.jpg",
