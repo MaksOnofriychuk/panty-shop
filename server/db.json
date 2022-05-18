@@ -40,7 +40,7 @@
     "_id": 4,
     "name": "LINDA",
     "code": "0666",
-    "size": ["S", "M", "L", "XS"],
+    "size": ["XS", "S", "M"],
     "price": 49,
     "photos": [
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/0666/lindaOne.jpg",
