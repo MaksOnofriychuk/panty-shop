@@ -3,7 +3,7 @@
     "_id": 1,
     "name": "TWIG",
     "code": "1757",
-    "size": ["XS", "S", "M", "L"],
+    "size": ["XS", "S"],
     "price": 49,
     "photos": [
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/1757/twigOne.jpg",
@@ -115,7 +115,7 @@
     "_id": 10,
     "name": "SHERON",
     "code": "22",
-    "size": ["XS", "S", "M"],
+    "size": ["XS", "S"],
     "price": 49,
     "photos": [
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/22/sheronOne.jpg",
@@ -203,7 +203,7 @@
     "_id": 17,
     "name": "FLIRT",
     "code": "104",
-    "size": ["XS", "S", "M"],
+    "size": ["XS", "S"],
     "price": 49,
     "photos": [
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/104/flirtOne.jpg",
