@@ -110,14 +110,14 @@ const Panty = () => {
                 </ul>
               </div>
 
-              <div className="product__description">
+              {/* <div className="product__description">
                 <span>Цвета:</span>
                 {panty.tags.map((tag) => (
                   <div key={new Date() + Math.random()}>
                     <span>{tag}</span>
                   </div>
                 ))}
-              </div>
+              </div> */}
 
               <div className="product__dimensional">
                 <span>Размерный ряд:</span>
