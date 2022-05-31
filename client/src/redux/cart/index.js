@@ -6,7 +6,7 @@ export const MINUS_CART_ITEM = "MINUS_CART_ITEM";
 export const GET_ITEMS = "GET_ITEMS";
 export const AFTER_SEND_FORM = "AFTER_SEND_FORM";
 
-const SELL_PERCENT = 41.8;
+const SELL_PERCENT = 40.5;
 
 const initialState = {
   items: {},
