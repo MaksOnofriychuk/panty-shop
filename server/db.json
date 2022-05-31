@@ -115,7 +115,7 @@
     "_id": 10,
     "name": "SHERON",
     "code": "22",
-    "size": ["XS", "S"],
+    "size": ["XS", "S", "M"],
     "price": 49,
     "photos": [
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/22/sheronOne.jpg",
@@ -153,7 +153,7 @@
     "_id": 13,
     "name": "LEAVES",
     "code": "6505",
-    "size": ["XS", "S"],
+    "size": ["XS", "S", "M"],
     "price": 49,
     "photos": [
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/6505/leavesOne.jpg",
@@ -258,18 +258,6 @@
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/2017/nancyOne.jpg",
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/2017/nancyTwo.jpg",
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/2017/nancyThree.jpg"
-    ],
-    "tags": ["Бежевый", "Белый", "Чёрный", "Красный", "Красный"]
-  },
-  {
-    "_id": 22,
-    "name": "MIA",
-    "code": "5678",
-    "size": ["XS", "S"],
-    "price": 49,
-    "photos": [
-      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/5678/miaOne.jpg",
-      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/5678/miaTwo.jpg"
     ],
     "tags": ["Бежевый", "Белый", "Чёрный", "Красный", "Красный"]
   }
