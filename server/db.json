@@ -10,7 +10,7 @@
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/1757/twigTwo.jpg",
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/1757/twigThree.jpg"
     ],
-    "tags": ["Чёрный", "Белый", "Бежевый", "Красный", "Синий"]
+    "tags": ["Чёрный", "Белый", "Бежевый", "Синий"]
   },
   {
     "_id": 2,
@@ -47,7 +47,7 @@
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/0666/lindaTwo.jpg",
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/0666/lindaThree.jpg"
     ],
-    "tags": ["Чёрный", "Синий", "Красный", "Белый", "Бордо", "Лиловый"]
+    "tags": ["Синий", "Красный", "Белый", "Лиловый"]
   },
   {
     "_id": 5,
@@ -72,7 +72,7 @@
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/143/penyTwo.jpg",
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/143/penyThree.jpg"
     ],
-    "tags": ["Чёрный", "Белый", "Салатовый"]
+    "tags": ["Чёрный", "Белый", "Салатовый", "Розовый"]
   },
   {
     "_id": 7,
@@ -97,7 +97,7 @@
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/2079/speechTwo.jpg",
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/2079/speechTwo.jpg"
     ],
-    "tags": ["Чёрный", "Бежевый", "Красный", "Синий", "Белый"]
+    "tags": ["Чёрный", "Бежевый", "Синий", "Белый"]
   },
   {
     "_id": 9,
@@ -109,7 +109,7 @@
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/613/nicoleOne.jpg",
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/613/nicoleTwo.jpg"
     ],
-    "tags": ["Белый", "Бежевый", "Лиловый", "Красный", "Синий"]
+    "tags": ["Белый", "Бежевый", "Лиловый", "Красный"]
   },
   {
     "_id": 10,
@@ -147,7 +147,7 @@
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/660/bettyTwo.jpg",
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/660/bettyThree.jpg"
     ],
-    "tags": ["Бежевый", "Чёрный", "Бордо", "Синий", "Белый"]
+    "tags": ["Бежевый", "Чёрный", "Синий", "Белый"]
   },
   {
     "_id": 13,
@@ -159,7 +159,7 @@
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/6505/leavesOne.jpg",
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/6505/leavesTwo.jpg"
     ],
-    "tags": ["Синий", "Белый"]
+    "tags": ["Белый"]
   },
 
   {
@@ -173,7 +173,7 @@
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/161/handyTwo.jpg",
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/161/handyThree.jpg"
     ],
-    "tags": ["Синий", "Белый", "Бежевый", "Чёрный", "Красный"]
+    "tags": ["Белый", "Бежевый", "Чёрный", "Красный"]
   },
   {
     "_id": 15,
@@ -209,7 +209,7 @@
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/104/flirtOne.jpg",
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/104/flirtTwo.jpg"
     ],
-    "tags": ["Лиловый", "Белый", "Чёрный"]
+    "tags": ["Лиловый", "Белый"]
   },
   {
     "_id": 18,
@@ -221,7 +221,7 @@
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/0018/emilyOne.jpg",
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/0018/emilyTwo.jpg"
     ],
-    "tags": ["Бежевый", "Белый", "Чёрный", "Синий", "Красный"]
+    "tags": ["Бежевый", "Белый", "Чёрный", "Красный"]
   },
   {
     "_id": 19,
@@ -233,7 +233,7 @@
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/8933/kellyOne.jpg",
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/8933/kellyTwo.jpg"
     ],
-    "tags": ["Бежевый", "Белый", "Чёрный", "Красный", "Красный"]
+    "tags": ["Бежевый", "Белый", "Чёрный", "Красный"]
   },
   {
     "_id": 20,
@@ -246,7 +246,7 @@
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/8934/madelineTwo.jpg",
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/8934/madelineThree.jpg"
     ],
-    "tags": ["Бежевый", "Белый", "Чёрный", "Красный", "Красный"]
+    "tags": ["Бежевый", "Белый", "Чёрный", "Красный"]
   },
   {
     "_id": 21,
@@ -259,6 +259,6 @@
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/2017/nancyTwo.jpg",
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/2017/nancyThree.jpg"
     ],
-    "tags": ["Бежевый", "Белый", "Чёрный", "Красный", "Красный"]
+    "tags": ["Белый", "Чёрный", "Розовый", "Оранжевый", "Малиновый"]
   }
 ]
