@@ -203,7 +203,7 @@
     "_id": 17,
     "name": "FLIRT",
     "code": "104",
-    "size": ["XS", "S"],
+    "size": ["XS", "S", "M"],
     "price": 55,
     "photos": [
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/104/flirtOne.jpg",
