@@ -16,7 +16,7 @@
     "_id": 2,
     "name": "DAISY",
     "code": "148",
-    "size": ["XS", "S"],
+    "size": ["XS", "S", "M", "L"],
     "price": 55,
     "photos": [
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/148/daisyOne.jpg",
@@ -247,18 +247,5 @@
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/8934/madelineThree.jpg"
     ],
     "tags": ["Бежевый", "Белый", "Чёрный", "Красный"]
-  },
-  {
-    "_id": 21,
-    "name": "NANCY",
-    "code": "2017",
-    "size": ["XS", "S", "M", "L"],
-    "price": 55,
-    "photos": [
-      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/2017/nancyOne.jpg",
-      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/2017/nancyTwo.jpg",
-      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/2017/nancyThree.jpg"
-    ],
-    "tags": ["Белый", "Чёрный", "Розовый", "Оранжевый", "Малиновый"]
   }
 ]
