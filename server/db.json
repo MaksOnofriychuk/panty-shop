@@ -40,7 +40,7 @@
     "_id": 4,
     "name": "LINDA",
     "code": "0666",
-    "size": ["XS", "S", "M", "L"],
+    "size": ["XS", "S"],
     "price": 55,
     "photos": [
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/0666/lindaOne.jpg",
@@ -63,19 +63,6 @@
   },
   {
     "_id": 6,
-    "name": "PENY",
-    "code": "143",
-    "size": ["XS", "S", "M", "L"],
-    "price": 55,
-    "photos": [
-      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/143/penyOne.jpg",
-      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/143/penyTwo.jpg",
-      "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/143/penyThree.jpg"
-    ],
-    "tags": ["Чёрный", "Белый", "Салатовый", "Розовый"]
-  },
-  {
-    "_id": 7,
     "name": "AMALIA",
     "code": "644",
     "size": ["XS", "S", "M", "L"],
@@ -87,7 +74,7 @@
     "tags": ["Чёрный", "Бежевый", "Лиловый", "Красный", "Синий"]
   },
   {
-    "_id": 8,
+    "_id": 7,
     "name": "SPEECH",
     "code": "2079",
     "size": ["XS", "S", "M", "L"],
@@ -100,7 +87,7 @@
     "tags": ["Чёрный", "Бежевый", "Синий", "Белый"]
   },
   {
-    "_id": 9,
+    "_id": 8,
     "name": "NICOLE",
     "code": "613",
     "size": ["XS", "S", "M", "L"],
@@ -112,7 +99,7 @@
     "tags": ["Белый", "Бежевый", "Лиловый", "Красный"]
   },
   {
-    "_id": 10,
+    "_id": 9,
     "name": "SHERON",
     "code": "22",
     "size": ["XS", "S", "M"],
@@ -124,7 +111,7 @@
     "tags": ["Чёрный", "Белый", "Бежевый", "Красный"]
   },
   {
-    "_id": 11,
+    "_id": 10,
     "name": "BEATRICE",
     "code": "815",
     "size": ["XS", "S", "M", "L"],
@@ -137,7 +124,7 @@
     "tags": ["Бежевый"]
   },
   {
-    "_id": 12,
+    "_id": 11,
     "name": "BETTY",
     "code": "660",
     "size": ["XS", "S", "M", "L"],
@@ -150,7 +137,7 @@
     "tags": ["Бежевый", "Чёрный", "Синий", "Белый"]
   },
   {
-    "_id": 13,
+    "_id": 12,
     "name": "LEAVES",
     "code": "6505",
     "size": ["XS", "S", "M"],
@@ -163,7 +150,7 @@
   },
 
   {
-    "_id": 14,
+    "_id": 13,
     "name": "HANDY",
     "code": "161",
     "size": ["XS", "S", "M", "L"],
@@ -176,7 +163,7 @@
     "tags": ["Белый", "Бежевый", "Чёрный", "Красный"]
   },
   {
-    "_id": 15,
+    "_id": 14,
     "name": "BLACK",
     "code": "1234",
     "size": ["XS", "S", "M", "L"],
@@ -188,7 +175,7 @@
     "tags": ["Чёрный"]
   },
   {
-    "_id": 16,
+    "_id": 15,
     "name": "RUMI",
     "code": "12",
     "size": ["XS", "S", "M", "L"],
@@ -200,7 +187,7 @@
     "tags": ["Чёрный", "Лиловый"]
   },
   {
-    "_id": 17,
+    "_id": 16,
     "name": "FLIRT",
     "code": "104",
     "size": ["XS", "S", "M"],
@@ -212,7 +199,7 @@
     "tags": ["Лиловый", "Белый"]
   },
   {
-    "_id": 18,
+    "_id": 17,
     "name": "EMILY",
     "code": "0018",
     "size": ["XS", "S", "M", "L"],
@@ -224,7 +211,7 @@
     "tags": ["Бежевый", "Белый", "Чёрный", "Красный"]
   },
   {
-    "_id": 19,
+    "_id": 18,
     "name": "KELLY",
     "code": "8933",
     "size": ["XS", "S", "M", "L"],
@@ -236,7 +223,7 @@
     "tags": ["Бежевый", "Белый", "Чёрный", "Красный"]
   },
   {
-    "_id": 20,
+    "_id": 19,
     "name": "MADELINE",
     "code": "8934",
     "size": ["XS", "S", "M", "L"],
