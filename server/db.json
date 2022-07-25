@@ -28,7 +28,7 @@
     "_id": 3,
     "name": "DAISY",
     "code": "148",
-    "size": ["XS", "S", "M", "L"],
+    "size": ["XS", "S", "M"],
     "price": 55,
     "photos": [
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/148/daisyOne.jpg",
@@ -52,7 +52,7 @@
     "_id": 5,
     "name": "LINDA",
     "code": "0666",
-    "size": ["XS", "S"],
+    "size": ["XS", "S", "M", "L"],
     "price": 55,
     "photos": [
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/0666/lindaOne.jpg",
@@ -113,7 +113,7 @@
     "_id": 10,
     "name": "BEATRICE",
     "code": "815",
-    "size": ["XS", "S", "M", "L"],
+    "size": ["L"],
     "price": 55,
     "photos": [
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/815/beatriceOne.jpg",
@@ -152,7 +152,7 @@
     "_id": 13,
     "name": "BLACK",
     "code": "1234",
-    "size": ["XS", "S", "M", "L"],
+    "size": ["XS", "S"],
     "price": 55,
     "photos": [
       "https://raw.githubusercontent.com/MaksOnofriychuk/panty-shop/main/product-photos/1234/blackOne.jpg",
